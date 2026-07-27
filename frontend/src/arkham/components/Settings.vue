@@ -26,12 +26,47 @@ const showOtherHands = computed({
   set: (v: boolean) => emit('update:showOtherPlayersHands', v),
 })
 
+function clampVolume(raw: unknown): number {
+  const n = Number(raw)
+  if (!Number.isFinite(n)) return 100
+  return Math.max(0, Math.min(100, Math.round(n)))
+}
+
 const soundsDisabled = ref(localStorage.getItem('arkhamSoundsDisabled') === 'true')
+const turnNotificationSoundsDisabled = ref(localStorage.getItem('arkhamTurnNotificationSoundDisabled') === 'true')
+const effectSoundsDisabled = ref(localStorage.getItem('arkhamEffectSoundsDisabled') === 'true')
+const soundVolume = ref(clampVolume(localStorage.getItem('arkhamSoundVolume')))
 
 watch(soundsDisabled, (value) => {
   localStorage.setItem('arkhamSoundsDisabled', value ? 'true' : 'false')
   window.dispatchEvent(new CustomEvent('arkham-setting-change', {
     detail: { key: 'arkhamSoundsDisabled', value: value ? 'true' : 'false' }
+  }))
+})
+
+watch(turnNotificationSoundsDisabled, (value) => {
+  localStorage.setItem('arkhamTurnNotificationSoundDisabled', value ? 'true' : 'false')
+  window.dispatchEvent(new CustomEvent('arkham-setting-change', {
+    detail: { key: 'arkhamTurnNotificationSoundDisabled', value: value ? 'true' : 'false' }
+  }))
+})
+
+watch(effectSoundsDisabled, (value) => {
+  localStorage.setItem('arkhamEffectSoundsDisabled', value ? 'true' : 'false')
+  window.dispatchEvent(new CustomEvent('arkham-setting-change', {
+    detail: { key: 'arkhamEffectSoundsDisabled', value: value ? 'true' : 'false' }
+  }))
+})
+
+watch(soundVolume, (value) => {
+  const clamped = clampVolume(value)
+  if (clamped !== value) {
+    soundVolume.value = clamped
+    return
+  }
+  localStorage.setItem('arkhamSoundVolume', String(clamped))
+  window.dispatchEvent(new CustomEvent('arkham-setting-change', {
+    detail: { key: 'arkhamSoundVolume', value: String(clamped) }
   }))
 })
 
@@ -242,6 +277,78 @@ onBeforeUnmount(() => {
             </div>
           </div>
 
+          <div class="toggle-row">
+            <div class="toggle-text">
+              <div class="toggle-name">Turn Notification Sound</div>
+              <div class="toggle-desc">Play a sound when it becomes your turn.</div>
+            </div>
+            <div class="segmented segmented-2 toggle-control">
+              <input
+                type="radio"
+                id="opt-turnSound-on"
+                name="opt-turnSound"
+                :checked="!turnNotificationSoundsDisabled"
+                :disabled="soundsDisabled"
+                @change="turnNotificationSoundsDisabled = false"
+              />
+              <label for="opt-turnSound-on">{{ $t('On') }}</label>
+              <input
+                type="radio"
+                id="opt-turnSound-off"
+                name="opt-turnSound"
+                :checked="turnNotificationSoundsDisabled"
+                :disabled="soundsDisabled"
+                @change="turnNotificationSoundsDisabled = true"
+              />
+              <label for="opt-turnSound-off">{{ $t('Off') }}</label>
+            </div>
+          </div>
+
+          <div class="toggle-row">
+            <div class="toggle-text">
+              <div class="toggle-name">Other Sound Effects</div>
+              <div class="toggle-desc">Control non-turn sound effects independently.</div>
+            </div>
+            <div class="segmented segmented-2 toggle-control">
+              <input
+                type="radio"
+                id="opt-effectSound-on"
+                name="opt-effectSound"
+                :checked="!effectSoundsDisabled"
+                :disabled="soundsDisabled"
+                @change="effectSoundsDisabled = false"
+              />
+              <label for="opt-effectSound-on">{{ $t('On') }}</label>
+              <input
+                type="radio"
+                id="opt-effectSound-off"
+                name="opt-effectSound"
+                :checked="effectSoundsDisabled"
+                :disabled="soundsDisabled"
+                @change="effectSoundsDisabled = true"
+              />
+              <label for="opt-effectSound-off">{{ $t('Off') }}</label>
+            </div>
+          </div>
+
+          <div class="toggle-row">
+            <div class="toggle-text">
+              <div class="toggle-name">Sound Volume</div>
+              <div class="toggle-desc">Set local sound volume for this browser ({{ soundVolume }}%).</div>
+            </div>
+            <div class="volume-control">
+              <input
+                type="range"
+                min="0"
+                max="100"
+                step="5"
+                :disabled="soundsDisabled"
+                v-model.number="soundVolume"
+                aria-label="Sound Volume"
+              />
+            </div>
+          </div>
+
           <div class="toggle-row" v-if="showCosmicEmissaryAnimationSetting">
             <div class="toggle-text">
               <div class="toggle-name">Enable Cosmic Emissary Animation</div>
@@ -434,6 +541,15 @@ onBeforeUnmount(() => {
   flex-shrink: 0;
 }
 
+.volume-control {
+  width: 150px;
+  flex-shrink: 0;
+}
+
+.volume-control input[type='range'] {
+  width: 100%;
+}
+
 .toggle-icon {
   width: 1em;
   height: 1em;
@@ -526,6 +642,9 @@ onBeforeUnmount(() => {
     gap: 10px;
   }
   .toggle-control {
+    width: 100%;
+  }
+  .volume-control {
     width: 100%;
   }
 }

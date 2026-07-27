@@ -399,7 +399,6 @@ instance RunMessage LocationAttrs where
       pushAll [whenWindowMsg, Do msg]
       pure a
     Do (RevealLocation miid lid) | lid == locationId && not locationRevealed -> do
-      sendCardAudio "flipCard" a
       mods <- getModifiers a
       let maxFloodLevel
             | CannotBeFlooded `elem` mods = Unflooded

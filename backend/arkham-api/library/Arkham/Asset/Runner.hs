@@ -318,7 +318,6 @@ instance RunMessage AssetAttrs where
         NotifySelfOfNoUses -> push $ SpentAllUses (toTarget a)
       pure $ a & tokensL .~ mempty
     RemoveTokens _ target tType n | isTarget a target -> do
-      when (tokenIsUse tType) $ sendCardAudio "removeResourceCard" a
       when (tType == Clue && assetClues a - n <= 0) do
         pushAll $ windows [Window.LastClueRemovedFromAsset (toId a)]
       when (tokenIsUse tType) do
@@ -706,11 +705,9 @@ instance RunMessage AssetAttrs where
     CardEnteredPlay _ card ->
       pure $ a & cardsUnderneathL %~ filter (/= card)
     Exhaust ea | a `isTarget` ea.target -> do
-      sendCardAudio "exhaustCard" a
       pushAll $ doFrame (Exhaust ea) (Window.Exhausts (toTarget a))
       pure a
     Do (Exhaust ea) | a `isTarget` ea.target -> do
-      sendCardAudio "exhaustCard" a
       unless assetExhausted $ pushAll ea.thenMsgs
       pure $ a & exhaustedL .~ True
     Ready target | a `isTarget` target -> case a.controller of
