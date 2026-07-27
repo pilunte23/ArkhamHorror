@@ -1,0 +1,134 @@
+{
+  "intro": {
+    "title": "Le Mur Occidental",
+    "checkCampaignLog": "Vérifiez votre Carnet de Campagne.",
+    "headedWest": "Si l'expédition se dirige vers l'ouest, continuez à _Le Mur Occidental 1_.",
+    "headedEast": "Si l'expédition se dirige vers l'est, passez à _Le Mur Occidental 2_.",
+    "westernWall1": "_Le Mur Occidental 1_ : À mesure que vous avancez vers l'ouest, il devient clair que la plage sur laquelle vous marchez se trouve au sommet d'une ancienne muraille annulaire. Plusieurs brasses plus bas, cette muraille tombe à pic vers une place circulaire au fond de l'océan.",
+    "westernWall2": "_Le Mur Occidental 2_ : Les fondations instables de la cité antique tremblent tandis que R'lyeh continue de remonter à la surface. Pour remonter en sécurité, vous devrez escalader la paroi abrupte de l'ancienne muraille en passant d'une poche d'air piégée à une autre.",
+    "resolveDoNoHarm": "Si un investigateur a la tâche Ne Pas Nuire, il résout son histoire correspondante à droite.",
+    "proceedToWesternSetup": "Continuez à _Mise en Place (v.I) - Expédition Vers l'Ouest_.",
+    "proceedToEasternSetup": "Continuez à _Mise en Place (v.II) - Expédition Vers l'Est_.",
+    "doNoHarm": {
+      "title": "Tâche : Ne Pas Nuire",
+      "instructions": "_Lisez ceci uniquement si vous avez la tâche « Ne Pas Nuire » :_",
+      "body": "Alors que vous vous préparez à traverser la muraille, vous repérez un corps allongé sur le sable noir. C'est un homme vêtu d'une cape rapiécée. Vous prenez son pouls : il est encore vivant, mais gravement blessé. Un pus jaune suinte de marques circulaires sur son cou, ses bras et son torse. Il a clairement besoin d'aide.",
+      "choose": "Vous devez décider (choisissez une option) :",
+      "bringAlong": "« Emmenons-le avec nous. Nous pouvons encore le sauver. » Après avoir mis en place ce scénario, placez 1 fatalité sur l'intrigue. Dans votre Carnet de Campagne, inscrivez que _l'expédition a aidé le pèlerin_.",
+      "leaveBehind": "« Laissons-le derrière nous. » Quand vous révélez le lieu de départ du prochain scénario, n'y placez pas d'indices. Dans votre Carnet de Campagne, inscrivez que _l'expédition a laissé le pèlerin à son sort_."
+    },
+    "label": {
+      "doNoHarm": {
+        "bringAlong": "“Bring him along. We can still save him.”",
+        "leaveBehind": "“Leave him behind.”"
+      }
+    }
+  },
+  "setup": {
+    "west": {
+      "title": "Mise en Place (v. I) - Expédition Vers l'Ouest",
+      "setLocationsAside": "Mettez de côté les lieux Fondations d'Obsidienne, Taudis Englouti, Escalier Submergé, Ruines Brisées {'{'}runeV{'}'} et Caveau Sous-Marin {'{'}runeZ{'}'}, hors jeu.",
+      "placeUpperWalkways": "Mélangez les cinq lieux Passerelle restants avec le Taudis Englouti, l'Escalier Submergé et les Ruines Brisées {'{'}runeV{'}'} mis de côté. Mettez six de ces lieux en jeu sur les niveaux 2 à 4 sous le Mur Occidental, face non-révélée visible.",
+      "buildActDeck": "Construisez le deck Acte en utilisant l'acte 1a — « Descendre dans l'Abîme ». Retirez l'autre acte de la partie.",
+      "placeBottomWalkways": "Mélangez les deux lieux Passerelle restants avec les Fondations d'Obsidienne mises de côté, puis placez-les en jeu au niveau 5, face non-révélée visible."
+    },
+    "east": {
+      "title": "Mise en Place (v. II) - Expédition Vers l'Est",
+      "setLocationsAside": "Mettez de côté les lieux Mur Occidental, Taudis Englouti, Escalier Submergé, Ruines Brisées {'{'}runeV{'}'} et Caveau Sous-Marin {'{'}runeZ{'}'}, hors jeu.",
+      "placeUpperWalkways": "Mélangez les cinq lieux Passerelle restants avec le Taudis Englouti, l'Escalier Submergé et les Ruines Brisées {'{'}runeV{'}'} mis de côté. Mettez six de ces lieux en jeu sur les niveaux 2 à 4 sous les Fondations d'Obsidienne, face non-révélée visible.",
+      "buildActDeck": "Construisez le deck Acte en utilisant l'acte 1a — « Escalader la Muraille ». Retirez l'autre acte de la partie.",
+      "placeBottomWalkways": "Mélangez les deux lieux Passerelle restants avec le Mur Occidental mis de côté, puis placez-les en jeu au niveau 5, face non-révélée visible."
+    },
+    "gatherSets": "Récupérez toutes les cartes des sets de rencontre suivants : _Le Mur Occidental_, _Héritage Cosmique_, _Profonds_, _Inondation_, _R'lyeh_, _Rejetons des Étoiles_, _L'Inéluctable_, _Créatures Sous-Marines_ et _Agents de Cthulhu_. Ces sets sont indiqués par les icônes suivantes :<section class='encounter-sets'><img src='{setImgPath}/the-western-wall.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/tdc_deep-ones.png' /><img src='{setImgPath}/flood.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/star-spawn.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/undersea-creatures.png' /><img src='{setImgPath}/agents-of-cthulhu.png' /></section>",
+    "gatherLocations": "Récupérez chaque lieu du set de rencontre _Le Mur Occidental_.",
+    "placeWesternWall": "Mettez le Mur Occidental en jeu au niveau 1, comme indiqué.",
+    "placeObsidianFoundations": "Mettez les Fondations d'Obsidienne en jeu au niveau 1, comme indiqué.",
+    "removeWalkways": "Récupérez chaque autre lieu Passerelle et retirez-en deux de la partie au hasard.",
+    "beginAtWesternWall": "Chaque investigateur commence la partie au Mur Occidental.",
+    "beginAtObsidianFoundations": "Chaque investigateur commence la partie aux Fondations d'Obsidienne.",
+    "setCardsAside": "Mettez de côté l'ennemi L'Inéluctable, la faiblesse Parasite Chasseur et la traîtrise recto-verso Frise des Abysses {'{'}runeW{'}'}, hors jeu.",
+    "setAsideCoralStarSpawn": "Cherchez l'ennemi Rejeton Corallien dans le set de rencontre _Rejetons des Étoiles_ et mettez-le de côté, hors jeu. Retirez chaque autre carte de ce set de la partie.",
+    "chooseExpeditionAsset": "Dans l'ordre des joueurs, chaque joueur peut choisir 1 soutien _Objet_ du set de rencontre _Expédition_ pour commencer la partie en jeu sous son contrôle. Ce set est indiqué par l'icône suivante :<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "addFloodTokens": "Ajoutez les pions Inondation à la réserve de pions.",
+    "floodLevelsTwoToFive": "Augmentez le niveau d'inondation de chaque lieu des niveaux 2 à 5.",
+    "fullyFloodLevelsFourAndFive": "Augmentez le niveau d'inondation des niveaux 4 et 5 afin qu'ils soient complètement inondés.",
+    "buildEncounterDeck": "Mélangez les cartes Rencontre restantes pour constituer le deck Rencontre.",
+    "readyToBegin": "Vous êtes maintenant prêt à commencer."
+  },
+  "label": {
+    "chooseExpeditionAssetQuestion": "Choisissez un soutien Objet du set de rencontre Expédition qui commencera la partie en jeu sous votre contrôle.",
+    "noExpeditionAsset": "Ne pas prendre de soutien Expédition."
+  },
+  "sunkenStairway": {
+    "label": {
+      "above": "Mettez le Caveau Sous-Marin dans la rangée au-dessus de l'Escalier Submergé.",
+      "below": "Mettez le Caveau Sous-Marin dans la rangée au-dessous de l'Escalier Submergé."
+    }
+  },
+  "rules": {
+    "locationAdjacency": {
+      "title": "Adjacence des lieux dans Le Mur Occidental",
+      "body": "<p class='basic'>Lors de ce scénario, les lieux sont disposés selon une structure fixe de 5 niveaux.</p><ul><li>La position de chaque lieu lui attribue un niveau de 1 à 5, en commençant par le Mur Occidental au niveau 1 et en descendant jusqu'aux lieux les plus bas au niveau 5.</li><li>Tous les effets de carte qui se réfèrent au niveau d'un lieu se réfèrent à sa rangée numérotée, comme indiqué sur le schéma de placement des lieux.</li><li>Lors de ce scénario, chaque lieu est connexe à chaque lieu de la rangée au-dessus de lui et à chaque lieu de la rangée en dessous de lui. Les lieux d'une même rangée ne sont pas connexes entre eux.</li></ul>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:theDrownedCity.theWesternWall.rules.locationAdjacency.title",
+      "body": "@:theDrownedCity.theWesternWall.rules.locationAdjacency.body"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est le niveau de votre lieu.",
+      "cultist": "-3. Si vous échouez et que votre lieu est complètement inondé, subissez 1 dégât.",
+      "tablet": "-3. Si vous échouez, augmentez le niveau d'inondation de votre lieu.",
+      "elderThing": "-3 (à la place -5 si votre lieu est complètement inondé)."
+    },
+    "hardExpert": {
+      "skull": "-X. X est égal à 2 de plus que le niveau de votre lieu.",
+      "cultist": "-5. Si votre lieu est complètement inondé, subissez 1 dégât.",
+      "tablet": "-5. Augmentez le niveau d'inondation de votre lieu, si possible.",
+      "elderThing": "-5 (si votre lieu est complètement inondé, vous échouez automatiquement à la place)."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "alors que l'expédition poursuit sa route"
+    },
+    "label": {
+      "resolution3": {
+        "drownedQuarter": "Continuez au _Quartier Englouti_.",
+        "apiary": "Continuez au _Rucher_."
+      }
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : Le fond de l'océan est une phantasmagorie onirique de flore sinistre et de créatures cauchemardesques. Un poisson-lanterne muté, qui ne pourrait être décrit que comme antédiluvien, nage placidement à travers une forêt d'herbes marines. Une autre créature abyssale aux yeux luisants et à la gueule dentelée file droit vers vous, puis s'écarte au dernier instant du champ miroitant qui retient l'eau.</p><ul><li>Dans votre Carnet de Campagne, rayez « Le Mur Occidental » sur la carte de R'lyeh.</li><li>Si un investigateur a la tâche Ne Pas Nuire, il résout son histoire correspondante sur cette page.</li><li>Chaque investigateur gagne une quantité d'expérience égale à la valeur Victoire X de chaque carte dans la pile de victoire.</li><li>Passez à _Conclusion 3_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Conclusion 2",
+      "body": "<p>_Conclusion 2_ : Une secousse ébranle la cité antique et vous jette au sol. Ruby jure pendant que vous vous redressez contre un pilier brisé. R'lyeh continue de s'élever. Finalement, les secousses s'apaisent. Ruby se tient à vos côtés et regarde le cercle parfait de la baie aux eaux noires. « Mince, dit-elle. J'avais parié avec Andy qu'on reviendrait les premiers. » Vous poussez un soupir et guidez le retour vers le Cassandra.</p><ul><li>Dans votre Carnet de Campagne, rayez « Le Mur Occidental » sur la carte de R'lyeh.</li><li>Si un investigateur a la tâche Ne Pas Nuire, il résout son histoire correspondante sur cette page.</li><li>Chaque investigateur gagne une quantité d'expérience égale à la valeur Victoire X de chaque carte dans la pile de victoire.</li><li>Continuez au _Sépulcre du Dormeur_.</li></ul>"
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte (tous les investigateurs ont été vaincus)_ : Avec l'aide du reste de l'expédition, vous progressez en boitant jusqu'à destination, en vous abritant dans des poches d'air intermittentes parmi les ruines en ruine. Des formes cauchemardesques vont et viennent dans l'océan obscur au-delà de la muraille. Les créatures qui vivent autour des fondations de R'lyeh sont difformes et étranges ; vous avez le sentiment de les revoir bientôt, dans vos propres cauchemars.</p><ul><li>Dans votre Carnet de Campagne, rayez « Le Mur Occidental » sur la carte de R'lyeh.</li><li>Si un investigateur a la tâche Ne Pas Nuire, il résout son histoire correspondante sur cette page.</li><li>Chaque investigateur gagne une quantité d'expérience égale à la valeur Victoire X de chaque carte dans la pile de victoire.</li><li>Vérifiez votre Carnet de Campagne.<ul><li>Si l'expédition se dirige vers l'ouest, passez à _Conclusion 3_.</li><li>Si l'expédition se dirige vers l'est, continuez au _Sépulcre du Dormeur_.</li></ul></li></ul>"
+    },
+    "doNoHarmResolution": {
+      "title": "Tâche : Ne Pas Nuire",
+      "instructions": "_Lisez ceci uniquement si vous avez la tâche « Ne Pas Nuire » :_",
+      "checkCampaignLog": "Vérifiez votre Carnet de Campagne.",
+      "helpedThePilgrim": "Si l'expédition a aidé le pèlerin, continuez à Tâche 1.",
+      "otherwise": "Sinon, passez à Tâche 2.",
+      "task1": "_Tâche 1_ : L'état de l'homme se dégrade rapidement. À la fin de votre périlleux trajet, il recrache un flegme jaune et rance. Alors que vous franchissez les derniers passages dangereux, il se tord de douleur et lacère sa poitrine et son visage. De petits orifices apparaissent autour de son cou et de son épaule, puis s'ouvrent brusquement tandis qu'un flot de parasites vermiformes s'en échappe. Chacun de ces vers est pourvu de petites dents en scie qui dégoulinent de la même bile jaune infecte. Ce qu'il reste de l'homme se relève lentement comme une marionnette grotesque et tend vers vous une main sanglante.",
+      "task1HuntingParasite": "Trouvez la faiblesse Parasite Chasseur mise de côté et ajoutez-la définitivement à votre deck. Cette carte ne compte pas dans la taille de deck de votre investigateur.",
+      "task1Progress": "Vous avez fait de votre mieux pour aider la victime. Cochez 2 progressions sous « Ne Pas Nuire » dans votre Carnet de Campagne.",
+      "task2": "_Tâche 2_ : Même après avoir franchi la muraille, vous n'arrivez pas à oublier l'homme que vous avez abandonné. Le souvenir de son regard suppliant et de sa toux sifflante hantera vos rêves. Auriez-vous pu le sauver ? Ou au moins lui accorder un peu de dignité dans ses derniers instants ?",
+      "task2Trauma": "Vous avez abandonné quelqu'un dans le besoin. Subissez 1 traumatisme mental.",
+      "task2Progress": "Effacez 1 progression sous « Ne Pas Nuire » dans votre Carnet de Campagne."
+    },
+    "resolution3": {
+      "title": "Conclusion 3",
+      "body": "<p>_Conclusion 3_ : Un dôme antique brille au fond de l'océan. Tandis que vous contemplez ce spectacle étrange, un bloc d'obsidienne se détache d'en haut et s'écrase sur le dôme. Au lieu de se briser, la surface ondule souplement pendant que la roche le traverse dans un fracas assourdissant. Quelque chose, en son centre, projette une barrière qui repousse l'eau mais laisse passer les éléments solides.</p><p>Quelle que soit cette technologie, Tillinghast s'y intéressera sans doute. Vous pouvez toutefois aussi poursuivre vers l'intérieur de R'lyeh : une porte circulaire à la base de la muraille, protégée par le même champ miroitant que le dôme, vous attire vers la cité.</p><ul><li>Les investigateurs doivent décider (choisir une option) :<ul><li>Pour découvrir les secrets du dôme sous-marin, continuez au _Quartier Englouti_.</li><li>Pour poursuivre dans les souterrains de R'lyeh, continuez au _Rucher_.</li></ul></li></ul>"
+    }
+  }
+}

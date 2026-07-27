@@ -1,0 +1,38 @@
+{
+  "placeSigil": "Dépensez 1 indice (en groupe, par investigateur) et placez un soutien Artéfact que vous contrôlez dans la pile de victoire : placez 1 sceau sur votre lieu.",
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est la Rage de Cthulhu.",
+      "cultist": "-3. Si vous échouez et que votre lieu est inondé, subissez 1 dégât.",
+      "tablet": "-3. Si vous échouez, placez 1 de vos indices sur votre lieu.",
+      "elderThing": "-1. Révélez un autre pion. Si vous échouez, après la résolution de ce test, piochez la carte du dessus du deck de Cthulhu. (Maximum une pioche par round.)"
+    },
+    "hardExpert": {
+      "skull": "-X. X est égal à 2 de plus que la Rage de Cthulhu.",
+      "cultist": "-5. Si votre lieu est inondé, subissez 1 dégât.",
+      "tablet": "-5. Si vous échouez, placez 1 de vos indices sur votre lieu.",
+      "elderThing": "-3. Révélez un autre pion. Si vous échouez, après la résolution de ce test, piochez la carte du dessus du deck de Cthulhu. (Maximum une pioche par round.)"
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "pour avoir tenu tête au Dormeur"
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : Dans un ultime effort de défi, vous repoussez le rêveur éveillé. L'immense forme de Cthulhu recule, et la tempête au-dessus d'Arkham commence à se dissiper. Pour l'instant, le Dormeur retourne à son sommeil.</p>"
+    },
+    "resolution2": {
+      "title": "Conclusion 2",
+      "body": "<p>_Conclusion 2_ : Les sceaux flambent d'une puissance dérobée et l'ancien verrou se referme sur Cthulhu comme un poing. Le rêveur est banni sous les vagues, et Arkham, meurtrie mais encore debout, retombe enfin dans le silence.</p>"
+    },
+    "resolution3": {
+      "title": "Conclusion 3",
+      "body": "<p>_Conclusion 3_ : Vous repoussez Cthulhu, mais le prix à payer est terrible. Des quartiers entiers d'Arkham gisent en ruines, engloutis par la marée montante. Le Dormeur est parti, pour l'instant, mais la ville ne sera plus jamais la même.</p>"
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte_ : Arkham se noie sous une mer déchaînée, et le regard annihilateur du grand rêveur balaie tous ceux qui se sont dressés contre lui. Le destin d'Arkham est scellé.</p>"
+    }
+  }
+}

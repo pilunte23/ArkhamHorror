@@ -1,0 +1,46 @@
+{
+  "intro": {
+    "title": "Un Dernier Travail",
+    "body1": "<p>Vous réprimez un frisson dans l'air frais du printemps alors que vous attendez sous la lumière vacillante d'un lampadaire. Ce soir, vous travaillez de nuit pour la dernière fois chez Randall Tillinghast, un marchand de curiosités local. La dernière cargaison de l'antiquaire en provenance de la Nouvelle-Orléans a disparu et il vous a chargé de la retrouver. Ce n'est pas la première fois que ce vieux renard vous envoie faire ces « courses » risquées.</p><p>Vos deux informateurs arrivent à l'heure. Ruby Standish, la célèbre voleuse de bijoux, s'approche de vous avec un sourire complice. Le courageux journaliste Andy Van Nortwick vous rejoint peu après.</p>",
+    "wendy": "<p class='red'>_Si vous incarnez Wendy Adams :_ « Si nous empiétons sur le territoire d'un gang, vous feriez mieux de rester très prudente », dit Andy. « Après ce travail, nous aurons plus d'argent qu'il n'en faut pour retrouver votre père. Je vous le promets. »</p>",
+    "body2": "<p>Vous frissonnez lorsqu'un vent glacial se met à souffler. Ruby sourit d'un air narquois. « Que diriez-vous d'un petit pari ? Quitte ou double. Le premier à mettre la main sur la marchandise rafle la mise. J'espère que vous êtes prêts à perdre. »</p><p>Avant que vous ne puissiez répondre, elle s'est déjà fondue dans l'ombre.</p><p class='basic right'>Continuez à _Mise en Place_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Récupérez toutes les cartes des sets de rencontre suivants : *Un Dernier Travail*, *Rêves*, *Froid Mordant*, *Portes Verrouillées*, *Les Masques de Minuit*, *Rats* et *Peur Foudroyante*. Ces sets sont indiqués par les icônes suivantes :<section class='encounter-sets'><img src='{setImgPath}/one-last-job.png' /><img src='{setImgPath}/dreams.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/midnight-masks.png' /><img src='{setImgPath}/rats.png' /><img src='{setImgPath}/striking-fear.png' /></section>Lorsque vous récupérez le set *Les Masques de Minuit*, ne prenez que les cartes Lieu. Ne prenez ni actes, ni intrigues, ni traîtrises de ce set.",
+    "locations": "Retirez de la partie les lieux suivants : Hôpital Sainte-Marie, Southside, Cimetière, Votre Maison, et un des deux exemplaires de Centre-Ville, au hasard.",
+    "placeLocations": "Mettez en jeu chacun des lieux restants.",
+    "startAt": "Chaque investigateur commence la partie dans Tillinghast Esoterica.",
+    "actDeck": "Construisez le deck Acte à l'aide d'un des deux exemplaires de l'acte 1a — « Interroger les Gangs », choisi au hasard. Mettez de côté tous les exemplaires de l'acte 2 et de l'acte 3, hors jeu.",
+    "setAside": "Mettez de côté Sadie Sheldon, Naomi O'Bannion, et les deux exemplaires de Dur à Cuire de Gang."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est le nombre d'ennemis _Criminel_ en jeu (maximum 4).",
+      "tablet": "-2 (à la place -4 s'il y a un ennemi _Criminel_ à votre lieu).",
+      "elderThing": "-3. Si vous échouez, défaussez les 3 cartes du dessus du deck Rencontre. Choisissez 1 ennemi _Criminel_ défaussé par cet effet et faites-le apparaître engagé avec vous."
+    },
+    "hardExpert": {
+      "skull": "-X. X est égal à 1 de plus que le nombre d'ennemis _Criminel_ en jeu.",
+      "tablet": "-3 (à la place -5 s'il y a un ennemi _Criminel_ à votre lieu).",
+      "elderThing": "-4. Si vous échouez, défaussez les 6 cartes du dessus du deck Rencontre. Choisissez 1 ennemi _Criminel_ défaussé par cet effet et faites-le apparaître engagé avec vous. Il effectue une attaque immédiate."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "alors qu'ils repensent au travail de la nuit"
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : Vous retournez à Tillinghast Esoterica avec la cargaison et Ruby Standish. La voleuse de bijoux admet à contrecœur que vous avez gagné son pari et vous promet un verre ensuite, sans reparler du « quitte ou double » qu'elle avait proposé. Une clochette d'argent tinte quand vous entrez dans la boutique familière aux effluves de renfermé. En quelques instants, Randall ouvre la caisse sur son bureau. À l'intérieur se trouve une petite idole vert jade enveloppée de tissu.</p><p>« Je ne pourrais pas être plus impressionné », dit Tillinghast. Ses yeux brillent en évaluant la figurine verte. Quand vous la regardez, votre tête tourne. Ruby fait les cent pas dans l'entrée de la boutique et s'adresse sèchement à votre employeur. « Bon, Tillinghast. Nous avons tenu notre part du marché. Où est notre part ? » La porte retentit de nouveau quand Andy revient. Randall s'assoit derrière son bureau et vous observe, vous et les autres, par-dessus ses doigts croisés. « Mes soupçons se confirment : la relique est authentique. Beau travail. Et si je vous disais que j'ai une offre impossible à refuser ? »</p>"
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte (chaque investigateur a abandonné ou a été vaincu)_ : Vous revenez à Tillinghast Esoterica, meurtri et couvert de bleus, en vous appuyant lourdement sur la porte de la boutique. Le vitrail représente une pyramide surmontée d'un œil cyclopéen qui vous fixe d'un regard impassible. Quelque chose en lui vous a toujours semblé étrange, inquiétant. Après une longue pause, vous vous redressez contre l'encadrement et entrez. À l'intérieur, vous trouvez Ruby et Andy rassemblés autour du bureau de Randall, examinant une petite figurine verte.</p><p>Randall se penche en avant sur sa chaise et vous observe, vous et les autres, par-dessus ses doigts croisés. « Mieux vaut tard que jamais, je suppose. Mes soupçons se confirment : la relique est authentique. Beau travail. Et si je vous disais que j'ai une offre impossible à refuser ? »</p>"
+    },
+    "rubyLostTheBet": "Dans votre Carnet de Campagne, indiquez que Ruby a perdu son pari.",
+    "rubyWonTheBet": "Dans votre Carnet de Campagne, indiquez que Ruby a gagné son pari.",
+    "victory": "Chaque investigateur reçoit un total de points d'expérience égal à la valeur Victoire X de chaque carte dans la pile de victoire.",
+    "discoveredAnAlienLanguage": "Si les investigateurs ont découvert un langage extraterrestre, vous découvrez ce glyphe. Dans votre Carnet de Campagne, indiquez « Profondeurs » sous le glyphe # dans le registre des glyphes. Ce glyphe a été traduit.",
+    "proceed": "Continuez à _Interlude I : Une Offre que Vous ne Pouvez pas Refuser_."
+  }
+}

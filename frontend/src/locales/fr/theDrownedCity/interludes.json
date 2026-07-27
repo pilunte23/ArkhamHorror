@@ -1,0 +1,95 @@
+{
+  "theAwakening": {
+    "title": "Interlude III : Le Réveil",
+    "body": "<p>Une violente secousse vous fait tomber à la renverse. Tandis que vous vous relevez, Ruby réprime un cri de surprise. Une ombre massive apparaît, voilée par l'obscurité sépulcrale des portes. La monstruosité antédiluvienne se traîne sur le ventre à travers la porte. Luttant contre la terrible volonté de la créature d'un autre âge, vous vous levez et aidez les autres à se relever. Les tentacules du Grand Cthulhu essayent de vous agripper tandis que vous fuyez vers la mer et pagayez furieusement vers le Cassandra.</p>"
+  },
+  "returnToArkham": {
+    "title": "Interlude IV : Retour à Arkham",
+    "body": "<p>Lors du voyage qui vous ramène chez vous, vos nuits sont hantées de cauchemars. De retour à Arkham, vous et les autres rapportez les découvertes de l'expédition à Tillinghast. Vérifiez la section Tâches de votre Carnet de Campagne : pour chaque progression cochée sous votre Tâche, vous gagnez 1 point d'expérience bonus.</p>"
+  },
+  "anOfferYouCantRefuse": {
+    "title": "Interlude I : Une Offre que Vous ne Pouvez pas Refuser",
+    "interlude1": "<p>_Interlude 1_ : « Ce que vous avez récupéré n'est pas une simple curiosité. L'objet a été acheté à grands frais en Égypte à un marchand qui l'avait hérité d'un parent qui l'avait acheté à Pékin, vous savez comment ça se passe », sourit Randall tandis que vous admirez l'antique artéfact. Il s'agit d'un sujet vaguement humanoïde, assis dans une position voûtée, avec une lourde tête octopoïde et des traits semblables à ceux d'un calmar. Il y a quelque chose de malveillant dans son expression, quelque chose de malsain dans la façon même dont il a été sculpté. Il vous semble difficile d'en détourner le regard.</p>",
+    "agencyDetectiveOrCriminal": "<p class='red'>_Si votre investigateur a le trait Agence, Détective ou Criminel_ : le récit de Randall sur l'acquisition de l'artéfact semble inutilement artificiel. Vous avez toutes les raisons de croire que la statue antique a été obtenue par des moyens peu légitimes. Malheureusement, cela ne vous dit rien sur les véritables origines de la relique.</p>",
+    "interlude1Continued": "<p>« Il s'agit d'une relique singulière d'origine préhistorique, voire préhumaine », dit la voix de Randall en rompant le charme. La suite de l'histoire de l'excentrique antiquaire vous laisse perplexe. Il vous narre la légende d'une ancienne lutte cosmique et vous explique pourquoi il pense que la terre entière est sur le point de connaître une apocalypse.</p><p>« L'histoire d'un grand déluge est présente dans toutes les histoires des hommes, dans toutes les mythologies. Le récit d'un cataclysme. Des légendes décrivent une grande cité-État : un bastion de la connaissance et de la puissance, qui a sombré sous les vagues. L'humanité lui a donné de nombreux noms. L'Atlantide. Mu. Lémurie. Mais son véritable nom, un nom d'avant l'Histoire, est _R'lyeh_. »</p><p>« Grâce à des recherches minutieuses et à l'aide d'un marin fou nommé Gustaf, j'ai pu déterminer les coordonnées relatives de l'ancienne cité. Ce qui m'amène à mon offre. J'ai besoin de quelqu'un d'audacieux et d'ingénieux pour mener une expédition vers l'ancienne cité. J'ai besoin que cette personne soit vous », dit Randall en vous regardant, avant de poser les yeux sur Ruby et Andy.</p><p>« Si vous acceptez, je vous déchargerai de toute dette restante et vous donnerai assez d'argent pour prendre une retraite confortable. Très confortable. Et, bien sûr, je vous apporterai mon aide concernant vos autres sujets d'inquiétude. » Votre esprit s'attarde sur ces « autres sujets d'inquiétude ».</p>",
+    "chooseTask": "Dans l'ordre des joueurs, chaque investigateur doit choisir une Tâche différente et lire le texte correspondant.",
+    "label": {
+      "walkInFaith": "Marcher Dans la Foi",
+      "toeTheLine": "Rentrer Dans le Rang",
+      "noPlaceLikeHome": "On n'Est Bien que Chez Soi",
+      "goodMoney": "Une Somme Inespérée",
+      "doNoHarm": "Ne Pas Nuire",
+      "proveYourWorth": "Prouvez Votre Valeur",
+      "dreamsOfDestruction": "Rêves de Destruction",
+      "plumbTheDepths": "Sonder les Profondeurs",
+      "refuse": "Refuser. Continuez à _Interlude 3_.",
+      "accept": "Accepter son offre. Passez à _Interlude 4_."
+    },
+    "task": {
+      "walkInFaith": {
+        "title": "Tâche : Marcher Dans la Foi",
+        "body": "<p>Toute votre vie, vous avez cru en quelque chose de plus grand que vous, quelque chose qui guide votre main et oriente votre chemin. Vous avez reconnu l'œil sans paupière de vos rêves dans le vitrail de la boutique de Tillinghast. C'était un signe. Vous n'avez pas d'autre choix que d'accepter.</p>"
+      },
+      "toeTheLine": {
+        "title": "Tâche : Rentrer Dans le Rang",
+        "body": "<p>Vous aviez gravi les échelons comme une étoile filante... jusqu'à ce que vous tombiez en disgrâce. Votre ancien collègue a fait en sorte qu'on ne vous propose plus aucun travail honnête. Vous vous êtes donc tourné vers Tillinghast. Vous espérez toujours qu'il vous aidera à retrouver votre ancien poste et à rétablir votre réputation.</p>"
+      },
+      "noPlaceLikeHome": {
+        "title": "Tâche : On n'Est Bien que Chez Soi",
+        "body": "<p>M. Tillinghast a toujours été bon avec vous. Lorsque la chance vous a quitté, c'est lui qui vous a sorti de la rue en vous offrant un repas chaud et un lit douillet à la Pension de Ma. Il vous a promis qu'avec l'argent de ce travail, vous alliez pouvoir vous remettre en selle.</p>"
+      },
+      "goodMoney": {
+        "title": "Tâche : Une Somme Inespérée",
+        "body": "<p>Au fil du temps, il vous a fallu faire beaucoup de choses. Mais c'est fini maintenant. Aujourd'hui, vous pouvez prendre un nouveau départ, comme Tillinghast vous l'a promis il y a des années, lorsqu'il a remboursé votre ancienne dette. La seule chose qu'il vous reste à faire, c'est de survivre à une dernière mission absurde.</p>"
+      },
+      "doNoHarm": {
+        "title": "Tâche : Ne Pas Nuire",
+        "body": "<p>Les gens ont toujours compté sur vous pour les sortir de la mouise. Randall a vu l'étendue de vos talents en collaborant avec vous, car il ne vous a jamais confié de missions faciles. Si vous réussissez ce dernier travail, il vous a promis que vos rêves deviendraient bientôt réalité.</p>"
+      },
+      "proveYourWorth": {
+        "title": "Tâche : Prouvez Votre Valeur",
+        "body": "<p>Vous les avez entendus parler de vous dans votre dos. Un « poids mort », voilà ce qu'ils ont dit de vous. Randall a promis de vous fournir tout ce dont vous avez besoin pour atteindre le sommet. Vous avez besoin de ce travail pour prouver à tout le monde que vous n'êtes pas le raté que décrivent vos pairs.</p>"
+      },
+      "dreamsOfDestruction": {
+        "title": "Tâche : Rêves de Destruction",
+        "body": "<p>Chaque nuit depuis un an, vous êtes la proie d'horribles cauchemars. Des visions d'une terrible désolation. Des rues en ruines. Ce terrible spectacle est dominé par une forme sans nom qui le surplombe. Randall vous a promis des réponses.</p>"
+      },
+      "plumbTheDepths": {
+        "title": "Tâche : Sonder les Profondeurs",
+        "body": "<p>Vous n'avez jamais eu l'intention de faire affaire avec Randall. Mais vous ne pourrez jamais étouffer l'inexorable envie de comprendre le monde qui vous entoure. Randall vous a promis que vous seriez servi au-delà de vos espérances. Ce travail fera décoller votre carrière.</p>"
+      }
+    },
+    "interlude2": "<p>_Interlude 2_ : Vous regardez Randall d'un œil suspicieux. Il vous cache quelque chose. Un piège. Il y a toujours un piège avec Tillinghast. D'ailleurs, il sait toujours sortir un dernier travail de son chapeau. Vous lui demandez de quoi il s'agit et il soupire.</p><p>« Je pensais que c'était évident, mais cette expédition risque d'être assez périlleuse. C'est pourquoi j'ai pensé à vous la confier. Vous avez prouvé que vous étiez plein de ressources. Et comme je l'ai dit, j'ai l'intention de vous récompenser généreusement. »</p><p class='basic'>Les investigateurs doivent décider (choisir une option) :</p>",
+    "refuse": "Refuser. Continuez à _Interlude 3_.",
+    "accept": "Accepter son offre. Passez à _Interlude 4_.",
+    "interlude3": "<p>_Interlude 3_ : Il y a forcément un piège. Sinon, Tillinghast ne vous aurait pas fait une offre aussi généreuse. Vous n'avez plus rien à faire avec lui. Vous secouez la tête pour dire non.</p><p>« Alors sortez », répond Tillinghast d'un ton glacial, en montrant la porte. « Vous ne m'êtes plus d'aucune utilité. Soyez cependant assuré que si vous en touchez un mot à qui que ce soit, vous le regretterez. » Sans un mot, vous sortez de la boutique, laissant derrière vous les merveilles — et les dangers — qui vous attendaient dans la boutique.</p><ul><li>Les investigateurs perdent la campagne.</li></ul>",
+    "interlude4": "<p>_Interlude 4_ : Quelles que soient les raisons qui le poussent à la cachotterie, l'offre vous paraît trop tentante pour être refusée. Ruby et Andy acquiescent. Un sourire familier se dessine sur le visage de Tillinghast. « C'est parfait. J'espérais que vous accepteriez. C'est vraiment la chance de votre vie. Je vous promets qu'après cela, rien ne sera plus jamais pareil. »</p><p>Après qu'Andy ait négocié une quantité conséquente de pellicules photographiques et que Ruby ait obtenu une augmentation, Tillinghast vous présente le calendrier de l'expédition. Demain, un train vous emmènera à San Francisco, où le Cassandra vous conduira aux coordonnées indiquées dans le Pacifique Sud.</p><p class='basic right'>Continuez à _Interlude II : Expédition à R'lyeh_.</p>",
+    "recommended": {
+      "noPlaceLikeHome": "Recommandée aux investigateurs Survivant, Vagabond, Chasseur ou Voyageur.",
+      "walkInFaith": "Recommandée aux investigateurs Gardien, Mystique, Croyant, Béni, Élu, Chasseur ou Sorcier.",
+      "toeTheLine": "Recommandée aux investigateurs Gardien, Agence, Détective, Chasseur, Police ou Vétéran.",
+      "goodMoney": "Recommandée aux investigateurs Truand, Municipal, Criminel, Entrepreneur ou Mondain.",
+      "proveYourWorth": "Recommandée aux investigateurs Agence, Interprète, Crépuscule d'Argent ou Mondain.",
+      "doNoHarm": "Recommandée aux investigateurs Assistant, Municipal, Médecin, Vétéran ou Veilleur.",
+      "dreamsOfDestruction": "Recommandée aux investigateurs Mystique, Artiste, Clairvoyant, Cultiste, Maudit, Rêveur, Interprète ou Sorcier.",
+      "plumbTheDepths": "Recommandée aux investigateurs Chercheur, Agence, Clairvoyant, Détective, Miskatonic, Érudit ou Reporter."
+    }
+  },
+  "expeditionToRlyeh": {
+    "title": "Interlude II : Expédition à R'lyeh",
+    "body": "<img class='interlude-banner' src='{setImgPath}/../extra/the-drowned-city/rlyeh.png' alt='R’lyeh' /><p>C'est en début de soirée que vous apercevez pour la première fois l'antique cité. Vous sortez de votre cabine et voyez Andy et Ruby regardant fixement la ligne d'horizon, sombre et irrégulière, à tribord. La ville millénaire est un enchevêtrement de tours effondrées, de quartiers labyrinthiques et de chemins aux lignes brisées qui s'enroulent sur eux-mêmes comme un nid de rats.</p><p>« Vous voyez ce que je vois ? C'est bien vrai ? Dites-moi que c'est bien vrai », dit Andy, en fourrant fébrilement plus de pellicule dans son appareil photo éraflé.</p><p>Au matin, vous discutez de l'itinéraire à suivre. Andy veut suivre la côte jusqu'aux ruines du mur occidental. Ruby souhaite prendre de l'altitude pour dessiner une carte de la ville. Suivant le personnage que vous souhaiterez suivre, vous explorerez l'antique cité de l'ouest vers l'est ou de l'est vers l'ouest. Vous devez choisir collectivement une des options suivantes :</p>",
+    "label": {
+      "west": "Suivre Andy le long du littoral jusqu'au Mur Occidental. Continuez à _Expédition Vers l'Ouest._",
+      "east": "Accompagner Ruby à travers les Canyons d'Obsidienne en direction d'une structure imposante à l'intérieur des terres. Passez à _Expédition Vers l'Est._"
+    },
+    "westernExpedition": "<p>_Expédition Vers l'Ouest_ : Lorsque vous acceptez d'accompagner Andy vers l'ouest, il soupire de soulagement. « Je ne veux pas vous inquiéter, mais je jurerais avoir vu une forme humaine nager en contrebas. Je serais heureux d'avoir de la compagnie. » Vous scrutez l'horizon au-delà de l'eau noire. Vous avez l'impression d'être observé.</p><p>« Deux semaines, alors », dit Ruby, en portant un rouleau de corde sur une épaule. « Nous nous retrouverons ici dans deux semaines. N'oubliez pas les scaphandres. Et ne vous faites pas tuer. Je n'aimerais pas perdre mon rival préféré. »</p>",
+    "easternExpedition": "<p>_Expédition Vers l'Est_ : Depuis que vous avez atterri, vous n'avez pas pu détacher vos yeux de la ligne d'horizon surréaliste. Après avoir accepté de l'accompagner vers l'est, vous percevez un léger sourire de la part de Ruby. Un vent terrible siffle dans les canyons périlleux, portant la puanteur de vieux charniers et une autre odeur, plus douce. Des nuages noirs s'agitent au loin, menaçants et annonciateurs de l'orage.</p>",
+    "theExpeditionHeadedWest": "Dans votre Carnet de Campagne, inscrivez l'expédition se dirige vers l'ouest.",
+    "andyVanNortwick": "Choisissez un investigateur pour qu'il ajoute à son deck le soutien d'histoire Andy Van Nortwick. Il ne compte pas dans la taille de son deck. Cette carte peut être trouvée dans le set de rencontre Expédition, reconnaissable à l'icône suivante :<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "westernChaosTokens": "Retirez 1 pion {'{'}tablet{'}'} de la réserve du Chaos. Ajoutez 1 pion {'{'}cultist{'}'} à la réserve du Chaos pour le reste de la campagne.",
+    "proceedToTheWesternWall": "Continuez à _Le Mur Occidental_.",
+    "theExpeditionHeadedEast": "Dans votre Carnet de Campagne, inscrivez l'expédition se dirige vers l'est.",
+    "rubyStandish": "Choisissez un investigateur pour qu'il ajoute à son deck le soutien d'histoire Ruby Standish. Il ne compte pas dans la taille de son deck. Cette carte peut être trouvée dans le set de rencontre Expédition, reconnaissable à l'icône suivante :<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "proceedToObsidianCanyons": "Continuez aux _Canyons d'Obsidienne_."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "additionalActions": "Actions supplémentaires à dépenser",
+  "cosmicOmen": {
+    "shuffleGlyphIntoEncounterDeck": "Mélangez dans le deck Rencontre 1 carte Glyphe en jeu",
+    "takeHorrorAndDiscard": "Subissez 1 horreur directe et défaussez 1 carte au hasard de votre main"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est le nombre de cartes Glyphe dans la pile de victoire.",
+      "cultist": "-2 (à la place -4 s'il y a un ennemi Passager Clandestin à votre lieu).",
+      "tablet": "-2. Si votre lieu est inondé, révélez un autre pion.",
+      "elderThing": "-4. Si ce pion est révélé lors d'une attaque ou d'une tentative d'évasion, subissez 1 dégât ou 1 horreur."
+    },
+    "hardExpert": {
+      "skull": "-X. X est égal à 1 de plus que le nombre de cartes Glyphe dans la pile de victoire.",
+      "cultist": "-3 (à la place -5 s'il y a un ennemi Passager Clandestin à votre lieu).",
+      "tablet": "-3. Si votre lieu est inondé, révélez un autre pion.",
+      "elderThing": "-5. Si ce pion est révélé lors d'une attaque ou d'une tentative d'évasion, subissez 1 dégât et 1 horreur."
+    }
+  },
+  "greatLift": {
+    "slideUp": "Faites monter le Grand Ascenseur",
+    "slideDown": "Faites descendre le Grand Ascenseur",
+    "slideUpAdditional": "Dépensez 1 indice par investigateur pour faire monter le Grand Ascenseur",
+    "slideDownAdditional": "Dépensez 1 indice par investigateur pour faire descendre le Grand Ascenseur",
+    "doNotSlide": "Ne pas déplacer le Grand Ascenseur"
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "pour avoir sondé la cour des anciens"
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : Vous vous endurcissez pour une nouvelle ascension, un pas après l'autre, alors que la tour en ruine menace de s'effondrer sous vous. Finalement, vous vous hissez pour retrouver l'expédition. Tous, vous contemplez la ligne d'horizon éblouissante de R'lyeh, où ses flèches semblent suspendues dans les airs au-dessus de tours effondrées.</p>"
+    },
+    "resolution2": {
+      "title": "Conclusion 2",
+      "body": "<p>_Conclusion 2_ : Après avoir palpé et tourné chaque arête de la tour en ruine, vous laissez derrière vous ses secrets antiques. Sans grand progrès depuis votre point d'atterrissage, vous trouvez un passage praticable vers le sommet. Avec votre corde et quelques pièces de matériel d'escalade, vous continuez votre progression.</p>"
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte_ : Le reste de l'expédition vous raconte vous avoir trouvé au bord de l'ascension vertigineuse, comme en somnambulisme. Vous vous frottez les yeux. Vous n'avez aucun souvenir de la cour extraterrestre.</p>"
+    }
+  }
+}

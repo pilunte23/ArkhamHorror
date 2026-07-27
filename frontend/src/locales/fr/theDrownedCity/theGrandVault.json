@@ -1,0 +1,89 @@
+{
+  "intro": {
+    "title": "La Grande Crypte",
+    "checkCampaignLog": "Vérifiez votre Carnet de Campagne.",
+    "headedWest": "Si l'expédition se dirige vers l'ouest, continuez à _La Grande Crypte 1_.",
+    "headedEast": "Si l'expédition se dirige vers l'est, passez à _La Grande Crypte 2_.",
+    "grandVault1": "_La Grande Crypte 1_ : Vous entendez l'écho d'une gigantesque machinerie bien avant de l'apercevoir. Après être sortis des tunnels claustrophobes, vous vous tenez sur un promontoire surplombant une vaste caverne. L'endroit est si grand que vous n'en voyez pas l'autre extrémité. Un ensemble de chambres interconnectées s'étend comme un labyrinthe, vibrant au rythme de constructions extraterrestres. Sous ce vacarme, vous percevez le bruit d'une eau courante, plus bas encore.",
+    "grandVault2": "_La Grande Crypte 2_ : Vous entendez l'écho d'une gigantesque machinerie bien avant de l'apercevoir. Vous atteignez le bas de l'escalier en spirale et débouchez sur un promontoire dominant une vaste étendue cavernicole. L'endroit est si grand que vous n'en voyez pas l'autre extrémité. Un ensemble de chambres interconnectées s'étend comme un labyrinthe, vibrant au rythme de constructions extraterrestres. Sous ce vacarme, vous percevez le bruit d'une eau courante, plus bas encore.",
+    "grandVault3": "_La Grande Crypte 3_ : Voici le cœur palpitant de R'lyeh. D'immenses vannes canalisent les eaux de crue de la cité au-dessus, remplissant et vidant les cryptes comme les chambres d'un cœur. Cela semble être une source d'énergie, et la raison de l'élévation continue de la cité. Après en avoir discuté avec l'expédition, vous décidez d'explorer ce complexe colossal avant de poursuivre votre route. S'il existe un endroit où trouver l'un de ces artéfacts insaisissables, c'est bien ici.",
+    "resolveToeTheLine": "Si un investigateur a la tâche Rentrer Dans le Rang, il résout son histoire correspondante à la page suivante.",
+    "proceedToSetup": "Continuez à _Mise en Place_.",
+    "toeTheLine": {
+      "title": "Tâche : Rentrer Dans le Rang",
+      "instructions": "_Lisez ceci uniquement si vous avez la tâche « Rentrer Dans le Rang » :_",
+      "body": "L'expédition établit son camp avant de descendre vers la crypte inférieure. Au cours d'un repas fade mais nourrissant, l'un de vos compagnons d'expédition révèle qu'il a connu votre ancien employeur. « Attendez, c'est vous dont tout le monde parle ? », ricane-t-il. « Croyez-moi, d'après ce que j'ai entendu, vous ne voulez pas récupérer votre ancien poste. Votre vieux patron se moque encore de vous. Même si Tillinghast pouvait vous y replacer, personne là-bas ne vous respecte. Vous êtes bon pour les basses besognes. »",
+      "reflection": "Vous terminez votre repas en silence, méditant ses paroles. Vos anciens collègues ne vous respectent peut-être pas, mais grâce aux relations de Tillinghast, vous pourriez leur inspirer la peur. Quelques pots-de-vin, des menaces bien placées, voire un coup de fil de la pègre, et ils rentreraient dans le rang. Ce n'est pas très réglo, mais en jouant bien vos cartes, vous pourriez évincer votre ancien employeur. D'ici votre retour à Arkham, vous aurez le temps d'élaborer votre plan.",
+      "choose": "Vous devez décider (choisir une option) :",
+      "oldJob": "Récupérer votre ancien poste, quel qu'en soit le prix. Effacez 1 progression sous _Rentrer Dans le Rang_ dans votre Carnet de Campagne. Lors du prochain scénario, vous gagnez +1 dans chacune de vos compétences pendant la première intrigue.",
+      "highRoad": "Prendre le chemin de la sagesse. Cela n'en vaut pas la peine. Cochez 2 progressions sous _Rentrer Dans le Rang_ dans votre Carnet de Campagne et subissez 1 traumatisme mental. Lors du prochain scénario, vous subissez -1 dans chacune de vos compétences pendant la première intrigue."
+    },
+    "label": {
+      "toeTheLine": {
+        "oldJob": "Récupérer votre ancien poste, quel qu'en soit le prix.",
+        "highRoad": "Prendre le chemin de la sagesse. Cela n'en vaut pas la peine."
+      }
+    }
+  },
+  "setup": {
+    "title": "Mise en Place",
+    "gatherSets": "Récupérez toutes les cartes des sets de rencontre suivants : _La Grande Crypte_, _Machinerie Extraterrestre_, _Inondation_, _L'Inéluctable_, _R'lyeh_ et _Rejetons des Étoiles_. Ces sets sont indiqués par les icônes suivantes :<section class='encounter-sets'><img src='{setImgPath}/the-grand-vault.png' /><img src='{setImgPath}/alien-machinery.png' /><img src='{setImgPath}/flood.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/star-spawn.png' /></section>",
+    "placeFixedLocations": "Mettez en jeu les lieux Grand Escalier, Plateforme Mobile, Chambre Scellée et Cœur de la Crypte, comme indiqué sur le schéma de placement des lieux.",
+    "removeOtherworldlyMechanisms": "Retirez de la partie au hasard un exemplaire de Mécanismes d'un Autre Monde (Mécanismes d'un Autre Monde se trouve sur la face révélée de certains lieux Chambre de Crypte).",
+    "placeVaultChambers": "Mélangez ensemble tous les exemplaires restants de Chambre de Crypte et mettez-les en jeu selon le schéma de placement des lieux.",
+    "beginAtTheGreatStair": "Chaque investigateur commence au Grand Escalier.",
+    "checkCampaignLog": "Vérifiez votre Carnet de Campagne.",
+    "powerWasDiverted": "Si _l'énergie a été détournée_, placez 1 ressource sur la Chambre de Crypte en bas à gauche. Ce lieu est « activé ».",
+    "otherwise": "Sinon, placez 1 ressource sur les Chambres de Crypte en bas à gauche, en bas à droite et en haut à droite. Ces lieux sont « activés ».",
+    "starSpawn": "Mélangez tous les ennemis du set de rencontre _Rejetons des Étoiles_ et retirez-en 2 de la partie au hasard. Mettez les autres de côté, hors jeu.",
+    "setCardsAside": "Mettez de côté les cartes suivantes, hors jeu : chaque exemplaire de la traîtrise recto-verso Crypte Antique, chaque exemplaire de l'ennemi Gardien de Crypte, le soutien d'histoire Tablette des Marées et le set de rencontre _L'Inéluctable_.",
+    "chooseExpeditionAsset": "Dans l'ordre des joueurs, chaque joueur peut choisir 1 soutien _Artéfact_ obtenu ou 1 soutien _Objet_ du set de rencontre _Expédition_ pour commencer la partie en jeu sous son contrôle. Ce set est indiqué par l'icône suivante :<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "addFloodTokens": "Ajoutez les pions Inondation à la réserve de pions.",
+    "floodBottomRow": "Augmentez le niveau d'inondation des trois lieux Chambre de Crypte de la rangée du bas.",
+    "buildEncounterDeck": "Mélangez les cartes Rencontre restantes pour constituer le deck Rencontre.",
+    "readyToBegin": "Vous êtes maintenant prêt à commencer."
+  },
+  "label": {
+    "chooseExpeditionAssetQuestion": "Choisissez 1 soutien Artéfact obtenu ou 1 soutien Objet du set Expédition pour commencer la partie en jeu sous votre contrôle.",
+    "noExpeditionAsset": "Ne pas prendre d'Artéfact ou de soutien Expédition."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est la moitié du nombre de lieux activés (arrondie à l'inférieur).",
+      "cultist": "-3. Si vous échouez, vous devez soit désactiver votre lieu, soit subir 1 dégât ou 1 horreur.",
+      "tablet": "-2 (à la place -3 si votre lieu est partiellement inondé ; à la place -4 si votre lieu est complètement inondé).",
+      "elderThing": "-4. Si vous échouez, cherchez un exemplaire de la traîtrise Toujours Derrière Vous dans la pile de défausse Rencontre et ajoutez-le à la pile de victoire."
+    },
+    "hardExpert": {
+      "skull": "-X. X est le nombre de lieux activés.",
+      "cultist": "-4. Une fois ce test résolu, vous devez soit désactiver votre lieu, soit subir 1 dégât et 1 horreur.",
+      "tablet": "-3 (à la place -4 si votre lieu est partiellement inondé ; à la place -5 si votre lieu est complètement inondé).",
+      "elderThing": "-5. Si vous échouez, cherchez un exemplaire de la traîtrise Toujours Derrière Vous dans la pile de défausse Rencontre et piochez-le."
+    }
+  },
+  "theGreatStair": {
+    "resign": "Vous gravissez le grand escalier et laissez les profondeurs englouties derrière vous."
+  },
+  "deadlyMechanisms": {
+    "deactivate": "Désactivez le lieu Crypte activé le plus proche.",
+    "drawAttendant": "Piochez 1 des ennemis Gardien de Crypte mis de côté.",
+    "move": "Déplacez-vous vers un lieu adjacent (inondé, si possible)."
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "pour avoir bravé la grande crypte"
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : Les membres de l'expédition passent la soirée à raconter des histoires et à plaisanter. Malgré l'atmosphère lugubre de la cité, le moral semble au beau fixe. Vous partagez vos découvertes avec Ruby et ses compagnons pendant qu'Andy tente de préparer un ragoût. Elle décrit leur itinéraire difficile jusqu'à la crypte et vous conseille d'emprunter le chemin vers l'ancienne cour, plus haut, plutôt que la route qu'elle a suivie à travers les usines silencieuses.</p>"
+    },
+    "resolution2": {
+      "title": "Conclusion 2",
+      "body": "<p>_Conclusion 2_ : Les membres de l'expédition passent la soirée à raconter des histoires et à plaisanter. Malgré l'atmosphère lugubre de la cité, le moral semble au beau fixe. Tandis que Ruby joue au poker avec les membres les plus impulsifs de l'expédition, vous partagez vos découvertes avec Andy. En retour, il vous raconte leur traversée du mur occidental submergé et des fondations antiques de la cité.</p>"
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte_ : On vous extirpe des eaux tourbillonnantes, meurtri et couvert d'ecchymoses, mais heureusement vivant. De retour au promontoire où vous aviez commencé, vous êtes agréablement surpris de trouver Ruby et Andy en train de discuter autour de rations sèches. Ensemble, vous passez la soirée à plaisanter, à échanger vos récits, et à dresser une carte sommaire de la cité antique.</p>"
+    }
+  }
+}

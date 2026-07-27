@@ -1,0 +1,180 @@
+{
+  "intro": {
+    "title": "Le Rucher",
+    "checkCampaignLog": "Vérifiez votre Carnet de Campagne.",
+    "headedWest": "Si l'expédition se dirige vers l'ouest, continuez à _Le Rucher 1_.",
+    "headedEast": "Si l'expédition se dirige vers l'est, passez à _Le Rucher 2_.",
+    "apiary1": "_Le Rucher 1_ : Les tunnels moites sous R'lyeh se ramifient sans fin, comme les capillaires d'une bête gigantesque. Des nodules brillants sont incrustés à intervalles réguliers dans les parois et pulsent d'une lumière douce. Au troisième soir, après avoir établi le camp, vous êtes assis en face d'Andy tandis qu'il noircit fébrilement son carnet. La conversation dérive vite vers les circonstances qui vous ont amenés tous deux à travailler pour Tillinghast.",
+    "ursulaDowns": "<p class='red'>_Si vous jouez Ursula Downs_ : vous et votre assistant Jake ajoutez chacun quelques détails pendant qu'Andy raconte l'histoire qui vous a réunis. Vous réprimez un frisson en repensant aux horreurs de l'Amazonie et à l'incident qui a coûté sa jambe à Jake.</p>",
+    "apiary1Andy": "« Pour faire court... M. Tillinghast m'a dit qu'il avait une autre grande histoire pour moi. Une occasion de percer. Et peut-être assez d'argent pour régler mon ardoise chez Hibb's. » Il a l'air gêné. « J'avais besoin de me défouler après mon dernier reportage. Beaucoup me défouler. »",
+    "apiary1Tremor": "Une secousse ébranle les tunnels. Le visage d'Andy pâlit pendant qu'il se penche vers vous. « J'ai une théorie. Cette ville ? Elle s'élève. Enfin... continue de s'élever. Les secousses, les fondations qui s'effritent, le fait qu'elle était sous l'eau et qu'elle ne l'est plus. Vous avez vu le cimetière de navires dans les flèches de la cité, non ? Des bateaux disparaissent dans cette zone de l'océan depuis des siècles. Je ne sais pas ce qui provoque ça, mais je fais sans cesse les mêmes rêves... »",
+    "apiary1Cavern": "Le lendemain, vous découvrez une immense caverne. Les murs et le plafond sont percés d'innombrables petits trous ronds qui se prolongent en un dédale anarchique. Andy se précipite à l'entrée d'un tunnel particulièrement fétide et ramasse un lambeau de tissu ensanglanté. « Je ne sais pas ce qui vit ici, mais je crois que ça aime manger les gens. »",
+    "apiary1Conclusion": "Plus loin, des excroissances charnues et bilieuses tapissent le tunnel et suintent un ichor épais et glaireux. Quelqu'un peut-il vraiment être encore vivant là-dessous ?",
+    "apiary2": "_Le Rucher 2_ : Les tunnels au-delà du cœur de la cité plongent toujours plus bas à travers une succession de complexes : d'anciennes usines extraterrestres figées dans le temps. « Je me demande ce qu'ils fabriquaient ici », dit Ruby. Des appendices métalliques griffus pendent au-dessus de rails interminables, tandis que des statues gargantuesques vous observent depuis de hautes alcôves. Plutôt que de marcher dans ce silence inquiétant, vous demandez à vos compagnons ce qui les a menés à travailler pour Tillinghast.",
+    "apiary2Ruby": "« En vérité, Tillinghast m'a surprise en train de lui chiper... disons... un peu de marchandise », dit Ruby. « Pas mon meilleur coup. Mais cet homme sait toujours retourner n'importe quel marché à son avantage. Il m'a proposé un boulot à la place. L'argent était bon, meilleur que ce que j'avais dérobé, alors j'ai dit oui. J'économise pour ma retraite depuis un bon moment. »",
+    "apiary2Cavern": "Les usines cèdent la place à un réseau de tunnels labyrinthique. Après plusieurs jours d'exploration, vous découvrez une vaste caverne. Les murs et le plafond sont percés de petits trous ronds qui se prolongent dans un terrier immense. Les restes sanglants d'un jeune homme vêtu d'une cape rapiécée gisent devant l'un des tunnels. L'odeur est insoutenable.",
+    "apiary2Note": "« C'est le même genre de cape que portait l'autre type », dit Ruby en plaquant un mouchoir sur sa bouche, tandis qu'elle retire de la poche du cadavre un petit bout de papier. Deux mots y sont griffonnés en lettres de sang : ENVOYEZ DE L'AIDE. Vous regardez le tunnel. Des excroissances charnues et bilieuses en bordent les parois, lui donnant l'apparence d'un œsophage géant. Une puanteur pire encore émane de l'intérieur.",
+    "apiary2Conclusion": "« Quelque chose me dit qu'il n'y a plus personne à sauver. Mais il y a peut-être quelque chose de précieux là-dedans », dit Ruby, son panache habituel nettement absent.",
+    "resolveWalkInFaith": "Si un investigateur a la tâche Marcher Dans la Foi, il résout son histoire correspondante sur cette page.",
+    "proceedToWesternSetup": "Continuez à _Mise en Place (v.I) - Expédition Vers l'Ouest_.",
+    "proceedToEasternSetup": "Continuez à _Mise en Place (v.II) - Expédition Vers l'Est_.",
+    "walkInFaith": {
+      "title": "Tâche : Marcher Dans la Foi",
+      "instructions": "_Lisez ceci uniquement si vous avez la tâche « Marcher Dans la Foi » :_",
+      "body": "Un sentiment écrasant de crainte et de fascination vous serre la poitrine tandis que vous contemplez l'entrelacs de tunnels spongieux et charnus, ainsi que les débris éparpillés au sol. Plusieurs capes déchirées et une lanterne brisée gisent autour de vous. Un immense cercle de craie composé de mots latins et de symboles occultes est tracé au centre de la salle. Un rituel de protection, peut-être ? Plus troublant encore : un symbole sacré de votre propre foi est inscrit en son centre. Ceux qui l'ont tracé étaient-ils des fidèles comme vous ? Hérétiques, peut-être, mais vous vous demandez s'ils n'ont pas été guidés, comme vous, vers cette cité antique. Alors que vous descendez dans les entrailles de la bête, votre estomac se noue. Votre foi vous a-t-elle égaré ?",
+      "choose": "Vous devez décider (choisir une option) :",
+      "doubts": "« Je suis assailli de doutes. » Effacez 1 progression sous _Marcher Dans la Foi_ dans votre Carnet de Campagne. La première fois que chaque investigateur devrait piocher dans le deck Rencontre lors du prochain scénario, il peut piocher 1 carte de son deck à la place.",
+      "resolve": "« Ma résolution est inébranlable. » Cochez 2 progressions sous _Marcher Dans la Foi_ dans votre Carnet de Campagne et subissez 1 traumatisme mental. La première carte Rencontre piochée par chaque investigateur lors du prochain scénario gagne Renfort."
+    },
+    "label": {
+      "walkInFaith": {
+        "doubts": "« Je suis assailli de doutes. »",
+        "resolve": "« Ma résolution est inébranlable. »"
+      }
+    }
+  },
+  "setup": {
+    "west": {
+      "title": "Mise en Place (v. I) - Expédition Vers l'Ouest",
+      "gatherSets": "Récupérez toutes les cartes des sets de rencontre suivants : _Le Rucher_, _Héritage Cosmique_, _Brume Ancestrale_, _L'Inéluctable_, _Pèlerins_, _Sombre Culte_ et _Peur Foudroyante_. Ces sets sont indiqués par les icônes suivantes :<section class='encounter-sets'><img src='{setImgPath}/the-apiary.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/pilgrims.png' /><img src='{setImgPath}/dark-cult.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+      "buildActDeck": "Construisez le deck Acte en utilisant l'acte 1a — « Signes Inquiétants » et l'acte 2a — « Pèlerins Perdus ». Retirez l'autre acte de la partie.",
+      "removeFromGame": "Retirez l'ennemi Mère de la partie.",
+      "setCardsAside": "Mettez de côté, hors jeu : chaque lieu du Rucher, les ennemis Amalgame Grotesque et Parasite Squameux recto-verso {'{'}runeT{'}'}, les soutiens d'histoire Maria Rivera, Relique Antique {'{'}runeS{'}'} et Horrible « Masque », les sets de rencontre Pèlerins et L'Inéluctable, ainsi que chaque exemplaire de la faiblesse Transformation Parasitaire.",
+      "shuffleIntoBottomTen": "Après cela, mélangez le lieu Tunnels Luminescents mis de côté parmi les 10 dernières cartes du deck Rencontre."
+    },
+    "east": {
+      "title": "Mise en Place (v. II) - Expédition Vers l'Est",
+      "gatherSets": "Récupérez toutes les cartes des sets de rencontre suivants : _Le Rucher_, _Héritage Cosmique_, _Brume Ancestrale_, _L'Inéluctable_, _Rejetons des Étoiles_, _Passagers Clandestins_ et _Peur Foudroyante_. Ces sets sont indiqués par les icônes suivantes :<section class='encounter-sets'><img src='{setImgPath}/the-apiary.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/star-spawn.png' /><img src='{setImgPath}/stowaways.png' /><img src='{setImgPath}/striking-fear.png' /></section>Lorsque vous récupérez le set Rejetons des Étoiles, ne prenez que l'ennemi Rejeton des Étoiles Infecté. Retirez chaque autre carte de ce set de la partie.",
+      "buildActDeck": "Construisez le deck Acte en utilisant l'acte 1a — « Signes Inquiétants » et l'acte 2a — « L'Esprit de Ruche ». Retirez l'autre acte de la partie.",
+      "removeFromGame": "Retirez le soutien d'histoire Maria Rivera de la partie.",
+      "setCardsAside": "Mettez de côté, hors jeu : chaque lieu du Rucher, les ennemis Amalgame Grotesque, Mère et Parasite Squameux recto-verso {'{'}runeV{'}'}, les soutiens d'histoire Horrible « Masque » et Relique Antique {'{'}runeR{'}'}, ainsi que chaque exemplaire de la faiblesse Transformation Parasitaire.",
+      "shuffleIntoBottomTen": "Après cela, mélangez le lieu Couloir Agrippant mis de côté parmi les 10 dernières cartes du deck Rencontre."
+    },
+    "placeApiaryEntrance": "Mettez l'Entrée du Rucher en jeu, côté (Lumière Attirante) visible.",
+    "beginAtApiaryEntrance": "Chaque investigateur commence la partie à l'Entrée du Rucher.",
+    "chooseExpeditionAsset": "Dans l'ordre des joueurs, chaque joueur peut choisir 1 soutien _Artéfact_ obtenu ou 1 soutien _Objet_ du set de rencontre _Expédition_ pour commencer la partie en jeu sous son contrôle. Ce set est indiqué par l'icône suivante :<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "removeTheInescapable": "Vérifiez votre Carnet de Campagne. Si _la créature a été vaincue_, retirez le set de rencontre L'Inéluctable de la partie.",
+    "buildEncounterDeck": "Mélangez toutes les cartes Rencontre restantes pour constituer le deck Rencontre, ainsi que les lieux du Rucher mis de côté suivants : Champs Croissants et les deux exemplaires de Sentiers Charnus.",
+    "readyToBegin": "Vous êtes maintenant prêt à commencer."
+  },
+  "lostPilgrims": {
+    "title": "Interlude Scénario : Pèlerins Perdus",
+    "body": "<p>La femme, toussant faiblement, se présente comme Maria Rivera. Elle et les autres forment un groupe de pèlerins de tous horizons, guidés jusqu'ici par leurs rêves. « Ceci est le domaine du dieu englouti, du monarque mort Cthulhu. Notre cheffe, Lady Dao, nous a ordonné d'attendre son retour dans cette cité antique. » Le nom « Cthulhu » résonne dans vos oreilles. Vous l'avez entendu maintes fois dans vos rêves.</p><p>Maria poursuit. « Cependant, quelque chose de malveillant vit dans ces tunnels. Quelque chose que je crains d'avoir éveillé par notre présence. Nous avons envoyé l'un des nôtres chercher de l'aide, mais il n'est pas revenu. »</p><p>Votre discussion est interrompue par un rugissement effroyable. Maria baisse les yeux. « Depuis notre arrivée, nous sommes traqués par quelque chose... quelque chose d'horrible. Cette chose nous a poursuivis dans les rues, dans les archives antiques, et même à travers le cœur de la cité. J'espérais qu'elle ne nous suivrait pas jusqu'à cet endroit corrompu et abominable. » Elle tousse de nouveau. « Je n'ai plus la force de les guider hors de ces tunnels. Je vous en supplie, conduisez-nous en lieu sûr. »</p><p>Un autre rugissement retentit dans les tunnels, plus proche cette fois, accompagné des trilles des parasites. Andy vous regarde, puis se tourne vers Maria : « Rassemblez vos gens. Personne ne mérite de mourir ici. »</p>",
+    "flipApiaryEntrance": "Retournez l'Entrée du Rucher sur sa face (*Sortie Dangereuse*).",
+    "gatherCultists": "Cherchez dans le deck Rencontre, la pile de défausse Rencontre, et toutes les zones de jeu et hors jeu chaque ennemi _Cultiste_ non-faiblesse. Mélangez-les et placez-les en pile face cachée sous le Bivouac Perdu.",
+    "mariaRivera": "Choisissez un investigateur qui prend le contrôle du soutien d'histoire Maria Rivera mis de côté. (*N'oubliez pas que Maria est aussi une _Cultiste_ pouvant être sauvée !*)",
+    "theInescapable": "Faites apparaître l'ennemi L'Inéluctable mis de côté, incliné, au lieu le plus éloigné de tous les investigateurs. Mélangez ensuite le reste du set de rencontre *L'Inéluctable* dans le deck Rencontre, avec la pile de défausse Rencontre.",
+    "placeClues": "Placez des indices sur chaque lieu révélé sans _victoire X_ jusqu'à sa valeur d'indice.",
+    "continuePlaying": "Continuez à jouer."
+  },
+  "theHiveMind": {
+    "title": "Interlude Scénario : L'Esprit de Ruche",
+    "body": "<p>Vous sentez l'irruption d'une conscience alien tandis qu'un millier de pensées et de souvenirs empiètent sur les vôtres. Elle est votre Mère. Vous le sentez au plus profond de vous. Vous voyez une légion de monstruosités ailées et tentaculaires monter à bord d'un vaisseau d'un autre monde. Vous voyez la Mère, petite comme un ver, ramper hors de son hôte. Vous la voyez entrer dans un autre hôte, puis un autre encore, et pondre des œufs dans leur gorge. Vous ressentez son besoin de grandir, de se répandre, de proliférer. Puis vient le goût de chair extraterrestre, de chair humaine, de votre propre chair, tandis que la Mère vous goûte encore maintenant.</p><p>Vous vous éveillez et voyez Ruby penchée au-dessus de vous, un couteau à la main. Vous êtes dans une chambre pulsante et fétide ; le cordon qui vous reliait à la Mère se tord au sol comme une queue de lézard. Enchâssé dans les parois de la pièce se trouve le cadavre massif d'une créature alien, suspendu comme une marionnette macabre : la Mère elle-même. Vous ressentez son désir de vous absorber, de devenir vous, de vous dévorer.</p><p>« On doit la tuer », grogne Ruby.</p>",
+    "rearrangeRing": "Réarrangez l'Entrée du Rucher, le Couloir Agrippant, le Couloir Affamé et le Coelome Acide en cercle. Placez chaque autre lieu ayant _victoire X_ et aucun indice dans la pile de victoire, en défaussant tous les pions et toutes les cartes qui s'y trouvent.",
+    "removeRemainingLocations": "Cherchez chaque lieu restant dans le deck Rencontre, la pile de défausse Rencontre et la zone de jeu, puis retirez-les de la partie.",
+    "placeCentralChamber": "Trouvez le lieu Chambre Centrale mis de côté et placez-le dans l'espace central, son bord inférieur orienté vers le Coelome Acide.",
+    "spawnMother": "Faites apparaître l'ennemi Mère mis de côté à la Chambre Centrale.",
+    "theInescapable": "Si le set de rencontre *L'Inéluctable* est mis de côté, faites apparaître l'ennemi L'Inéluctable au lieu le plus éloigné de tous les investigateurs. Mélangez ensuite le reste du set de rencontre *L'Inéluctable* dans le deck Rencontre, avec la pile de défausse Rencontre.",
+    "placeClues": "Placez des indices sur chaque lieu révélé sans _victoire X_ jusqu'à sa valeur d'indice.",
+    "continuePlaying": "Continuez à jouer."
+  },
+  "label": {
+    "chooseExpeditionAssetQuestion": "Choisissez 1 soutien Artéfact obtenu ou 1 soutien Objet du set Expédition pour commencer la partie en jeu sous votre contrôle.",
+    "noExpeditionAsset": "Ne pas prendre d'Artéfact ou de soutien Expédition.",
+    "cluesToSpend": "Indices à dépenser",
+    "moveToConnecting": "Se déplacer vers un lieu connexe",
+    "motherAttacks": "Mère vous attaque"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est égal à la moitié du nombre de fatalités sur les ennemis et soutiens en jeu, arrondie à l'inférieur (maximum 4).",
+      "cultist": "-1. S'il y a un ennemi Cultiste à votre lieu, révélez un autre pion.",
+      "tablet": "-3. Si vous échouez, placez 1 fatalité sur un ennemi à votre lieu qui n'a pas de fatalité.",
+      "elderThing": "-4. Si vous échouez, subissez 1 dégât ou 1 horreur."
+    },
+    "hardExpert": {
+      "skull": "-X. X est égal au nombre de fatalités sur les ennemis et soutiens en jeu (maximum 8).",
+      "cultist": "-3. S'il y a un ennemi Cultiste à votre lieu, révélez un autre pion.",
+      "tablet": "-5. Si vous échouez, placez 1 fatalité sur un ennemi à votre lieu (sans fatalité, si possible).",
+      "elderThing": "-6. Si vous échouez, subissez 1 dégât ou 1 horreur."
+    }
+  },
+  "tooltips": {
+    "apiaryEntranceBeckoningLight": {
+      "resign": "Abandonner."
+    },
+    "apiaryEntranceDangerousExit": {
+      "resign": "Abandonner."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "pour avoir sauvé les pèlerins d'une mort presque certaine !"
+    },
+    "investigatorDefeat": {
+      "title": "Défaite d'Investigateur",
+      "body": "<p>_Défaite d'Investigateur_ : Vous ne ressentez aucune douleur. En réalité, il n'y a plus de « vous » pour ressentir quoi que ce soit. À la place, « vous » êtes devenu une partie d'un esprit interconnecté sans fin, tapi sous cette cité. Vous avez toujours été ici. Et vous y resterez toujours.</p>",
+      "killed": "Chaque investigateur vaincu est tué. S'il n'y a aucun investigateur survivant pour poursuivre la campagne, les investigateurs perdent la campagne.",
+      "storyAssets": "Si le soutien d'histoire Andy Van Nortwick ou Ruby Standish était dans le deck d'un investigateur tué, choisissez un investigateur survivant pour l'ajouter à son deck pour le reste de la campagne. Cette carte ne compte pas dans la taille de deck de cet investigateur.",
+      "otherResolution": "Si une autre conclusion a été atteinte, les investigateurs restants passent à cette conclusion."
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : Les derniers survivants émergent des tunnels fétides. Après vous avoir remercié, les pèlerins vous montrent le tunnel qu'ils ont emprunté depuis le « cœur de la cité ». Alors que vous partez, Andy essuie de l'ichor sur la lentille de son appareil photo. « Encore une pellicule fichue. Un seul bon cliché aurait pu lancer ma carrière. J'aurais tout aussi bien pu jeter mes films par-dessus bord en venant. »</p>",
+      "updateCampaignLog": "Mettez à jour votre Carnet de Campagne.",
+      "crossOutTheApiary": "Rayez « Le Rucher » sur la carte de R'lyeh.",
+      "grislyMask": "Si l'Horrible « Masque » était sous le contrôle d'un investigateur à la fin du scénario, cochez la case à côté d'Horrible « Masque » dans « Artéfacts Obtenus ».",
+      "victory": "Chaque investigateur gagne une quantité d'expérience égale à la valeur Victoire X de chaque carte dans la pile de victoire.",
+      "experience": "_Expérience_ : {xp}",
+      "recordPilgrimsWereSaved": "Inscrivez que _les pèlerins ont été sauvés_.",
+      "bonus": "Chaque investigateur gagne 2 points d'expérience bonus pour avoir sauvé les pèlerins d'une mort presque certaine !",
+      "proceedToTheGrandVault": "Continuez à _La Grande Crypte_."
+    },
+    "resolution2": {
+      "title": "Conclusion 2",
+      "body": "<p>_Conclusion 2_ : Encore sous le choc, vous sortez des tunnels et retrouvez la vaste antichambre où tout avait commencé. Si des pèlerins ont survécu, ils ne se sont pas attardés. Après un long silence, l'expédition se remet en marche. Andy plisse les yeux devant une traînée de sang au sol : si un pèlerin avait été traîné de force, les traces seraient bien pires. Sa piste mène peut-être vers le « noyau de la cité », comme disait Maria.</p>",
+      "updateCampaignLog": "Mettez à jour votre Carnet de Campagne.",
+      "crossOutTheApiary": "Rayez « Le Rucher » sur la carte de R'lyeh.",
+      "grislyMask": "Si l'Horrible « Masque » était sous le contrôle d'un investigateur à la fin du scénario, cochez la case à côté d'Horrible « Masque » dans « Artéfacts Obtenus ».",
+      "victory": "Chaque investigateur gagne une quantité d'expérience égale à la valeur Victoire X de chaque carte dans la pile de victoire.",
+      "experience": "_Expérience_ : {xp}",
+      "parasiticTransformation": "Chaque investigateur doit chercher un exemplaire de Transformation Parasitaire dans le set de rencontre Le Rucher et l'ajouter à son deck. Cette carte ne compte pas dans la taille de deck de l'investigateur.",
+      "recordPilgrimsWereDevoured": "Inscrivez que _les pèlerins ont été dévorés_.",
+      "proceedToTheGrandVault": "Continuez à _La Grande Crypte_."
+    },
+    "resolution3": {
+      "title": "Conclusion 3",
+      "body": "<p>_Conclusion 3_ : L'expédition revient vers l'entrée du rucher, couverte de sang. Vous grattez une démangeaison persistante à l'arrière de votre cou, en espérant ne pas avoir été infecté. Des souvenirs fragmentés de votre bref passage dans l'esprit de ruche continuent d'envahir vos pensées. Vous doutez de vous sentir à nouveau tout à fait le même un jour.</p>",
+      "updateCampaignLog": "Mettez à jour votre Carnet de Campagne.",
+      "crossOutTheApiary": "Rayez « Le Rucher » sur la carte de R'lyeh.",
+      "grislyMask": "Si l'Horrible « Masque » était sous le contrôle d'un investigateur à la fin du scénario, cochez la case à côté d'Horrible « Masque » dans « Artéfacts Obtenus ».",
+      "victory": "Chaque investigateur gagne une quantité d'expérience égale à la valeur Victoire X de chaque carte dans la pile de victoire.",
+      "experience": "_Expérience_ : {xp}",
+      "recordParasitesExterminated": "Inscrivez que _les investigateurs ont exterminé les parasites extraterrestres_.",
+      "proceedToResolution4": "Passez à _Conclusion 4_."
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte_ : Vous arrachez de votre nuque un ver frétillant en fuyant les tunnels putrides. Avec un peu de chance, vous n'êtes pas infecté...</p>",
+      "updateCampaignLog": "Mettez à jour votre Carnet de Campagne.",
+      "crossOutTheApiary": "Rayez « Le Rucher » sur la carte de R'lyeh.",
+      "grislyMask": "Si l'Horrible « Masque » était sous le contrôle d'un investigateur à la fin du scénario, cochez la case à côté d'Horrible « Masque » dans « Artéfacts Obtenus ».",
+      "victory": "Chaque investigateur gagne une quantité d'expérience égale à la valeur Victoire X de chaque carte dans la pile de victoire.",
+      "experience": "_Expérience_ : {xp}",
+      "parasiticTransformation": "Chaque investigateur doit chercher un exemplaire de Transformation Parasitaire dans le set de rencontre Le Rucher et l'ajouter à son deck. Cette carte ne compte pas dans la taille de deck de l'investigateur.",
+      "checkCampaignLog": "Vérifiez votre Carnet de Campagne.",
+      "proceedToTheGrandVault": "Si l'expédition se dirige vers l'ouest, continuez à _La Grande Crypte_.",
+      "proceedToResolution4": "Si l'expédition se dirige vers l'est, passez à _Conclusion 4_."
+    },
+    "resolution4": {
+      "title": "Conclusion 4",
+      "body": "<p>_Conclusion 4_ : Vous finissez par retrouver votre ancien itinéraire. Après plusieurs jours de marche, vous arrivez devant une grande porte circulaire de la taille d'un coffre de banque. Après avoir pressé plusieurs glyphes extraterrestres dans un certain ordre, la porte roule et révèle un chemin sec serpentant sur le fond marin vers un dôme faiblement lumineux. Un champ d'énergie diaphane et miroitant retient la masse de l'océan. Tandis que vous contemplez ce prodige, un bloc d'obsidienne se détache d'en haut et s'écrase sur le dôme. Au lieu de se briser, le dôme ondule souplement tandis que la roche le traverse dans un fracas tonitruant.</p><p>« C'est impossible », halète Ruby. « Quelque chose dans ce dôme alimente la barrière. On dirait qu'elle retient l'eau, mais qu'elle laisse passer le reste. Quoi que ce soit, Randall y verrait une belle trouvaille. » Elle lève les yeux vers la paroi abrupte menant à la surface.</p><ul><li>Les investigateurs doivent décider (choisir une option) :<ul><li>« Nous sommes allés trop loin pour rebrousser chemin. » Pour explorer le dôme du fond marin, continuez au _Quartier Englouti_.</li><li>« Tu es folle ? On doit sortir d'ici ! » Pour escalader la muraille et retourner au camp, continuez au _Mur Occidental_.</li></ul></li></ul>"
+    },
+    "label": {
+      "resolution4": {
+        "drownedQuarter": "« Nous sommes allés trop loin pour rebrousser chemin. »",
+        "westernWall": "« Tu es folle ? On doit sortir d'ici ! »"
+      }
+    }
+  }
+}

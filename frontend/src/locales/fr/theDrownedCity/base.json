@@ -1,0 +1,127 @@
+{
+  "specialRules": [
+    {
+      "title": "Pions Inondation",
+      "body": "@:theDrownedCity.additionalRulesAndClarifications.floodTokens"
+    },
+    {
+      "title": "Artéfacts",
+      "body": "@:theDrownedCity.additionalRulesAndClarifications.artifacts"
+    },
+    {
+      "title": "Glyphes Extraterrestres",
+      "body": "@:theDrownedCity.additionalRulesAndClarifications.alienGlyphs"
+    },
+    {
+      "title": "Nouveaux Mots-Clés",
+      "body": "@:theDrownedCity.newKeywords.body"
+    }
+  ],
+  "label": {
+    "noAir": "Vous n'avez pas trouvé d'air. Subissez 5 dégâts directs.",
+    "naomiOBannion": {
+      "preventReadying": "Subissez 1 dégât pour empêcher Naomi O'Bannion de se redresser",
+      "doNotTakeDamage": "Ne pas subir 1 dégât"
+    },
+    "dreamingMigration": {
+      "moveNearestEnemy": "Déplacez l'ennemi le plus proche vers votre lieu et il vous attaque",
+      "drawTopmostEnemy": "Piochez l'ennemi le plus au-dessus de la pile de défausse Rencontre"
+    }
+  },
+  "intro": {
+    "title": "La Cité Engloutie",
+    "body": "<p class='indent'>« ...la cité aux corps morts, la cité de cauchemar, R'lyeh, bâtie depuis des éons infinis, avant que toute histoire ne commence, par les formes immenses et repoussantes venues de sombres étoiles qui s'étaient infiltrées sur la terre. C'est là que reposent le grand Cthulhu et ses hordes, cachés dans des tombes vertes et gluantes. C'est de là qu'ils peuvent envoyer, enfin, après d'incalculables cycles, les pensées qui répandent la frayeur dans les rêves des êtres sensibles, qu'ils en appellent impérieusement aux fidèles pour qu'ils accomplissent leur pèlerinage de libération et de restauration. »</p><p class='basic right'>— H. P. Lovecraft, « L'Appel de Cthulhu »</p>"
+  },
+  "prologue": {
+    "title": "Prologue",
+    "body": "<p><span class='wolgast'>10 avril</span></p><p>Depuis un certain temps, quelque chose ne tourne pas rond. L'année a été exceptionnellement froide, avec de fortes chutes de neige, de la pluie et du brouillard qui ont maintenu le ciel de la Nouvelle-Angleterre dans un état de mélancolie perpétuelle. Une nervosité rétive semble s'être insinuée dans tous les aspects de la vie quotidienne. Les petites disputes au coin des rues en viennent aux mains. Des cris et des hurlements étouffés résonnent derrière les portes closes. Un nombre non négligeable d'étudiants ont tout simplement cessé d'assister aux cours de l'université Miskatonic. Les habitants d'Arkham le sentent dans leurs os : quelque chose est différent. Quelque chose ne va pas.</p><p class='basic right'>Continuez à _Un Dernier Travail._</p>"
+  },
+  "additionalRulesAndClarifications": {
+    "title": "Règles Supplémentaires et Clarifications",
+    "floodTokens": "<h3>Pions Inondation</h3><p class='basic'>Lors de cette campagne, des effets de cartes Scénario peuvent inonder des lieux. Chaque lieu possède trois niveaux d'inondation différents : un lieu peut être « pas inondé », « partiellement inondé » ou « complètement inondé ». Le niveau d'inondation d'un lieu peut être indiqué en utilisant les pions Inondation recto verso inclus dans cette extension. <i>Le niveau d'inondation d'un lieu n'a aucun effet direct sur la partie</i>. Cependant, certains effets de carte peuvent changer ou empirer lorsque vous êtes dans un lieu inondé, surtout s'il est complètement inondé.</p><ul><li>Un lieu sans pion Inondation n'est pas inondé.</li><li>Si un lieu devient partiellement inondé, placez-y un pion Inondation avec la face « partiellement inondé » visible.</li><li>Si un lieu devient complètement inondé, placez-y un pion Inondation avec la face « complètement inondé » visible (ou retournez son pion Inondation s'il était déjà partiellement inondé).<br><div style='display:flex;flex-direction:row;gap:1em;justify-content: center; align-items: center; align-self: center;'><div class='center'><img width='70' src='{setImgPath}/../tokens/partially-flooded.png' /><br><p>partiellement inondé</p></div><div class='center'><img width='70' src='{setImgPath}/../tokens/fully-flooded.png' /><br><p>complètement inondé</p></div></div></li><li>Si le niveau d'inondation d'un lieu est « augmenté », il passe de pas inondé à partiellement inondé, ou de partiellement inondé à complètement inondé. Le niveau d'inondation d'un lieu complètement inondé ne peut pas être augmenté.</li><li>Si le niveau d'inondation d'un lieu est « diminué », il passe de complètement inondé à partiellement inondé, ou de partiellement inondé à pas inondé. Si un lieu n'est plus inondé, retirez son pion Inondation. Le niveau d'inondation d'un lieu pas inondé ne peut pas être diminué.</li><li>Pour les effets de carte, les lieux partiellement inondés et complètement inondés sont tous considérés comme « inondés ».</li></ul>",
+    "artifacts": "<h3>Artéfacts</h3><p class='basic'>Lors de la campagne <i>La Cité Engloutie</i>, les investigateurs peuvent obtenir des soutiens d'histoire <i>Artéfact</i> (également appelés simplement « artéfacts »). Les artéfacts fonctionnent comme n'importe quel autre soutien, à l'exception des points suivants :</p><ul><li class='basic'>Les artéfacts ne sont jamais ajoutés aux decks des investigateurs. Après la conclusion d'un scénario, remettez dans la boîte tous les artéfacts qui étaient en jeu.</li><li class='basic'>Lors de la mise en place d'un scénario, les investigateurs peuvent être amenés à commencer la partie avec un soutien d'histoire <i>Artéfact</i> qu'ils ont précédemment obtenu. Seuls les artéfacts cochés dans la section « Artéfacts Obtenus » du Carnet de Campagne peuvent être choisis lors de ce processus.</li><li class='basic'>Les artéfacts ont un dos de carte particulier, n'ont pas de coût, ne peuvent pas quitter la partie et ne peuvent pas être choisis pour être défaussés via des effets de scénario.</li><li class='basic'>Certains artéfacts contiennent des glyphes extraterrestres. Tout texte situé sous ces glyphes est considéré comme vierge tant que les investigateurs n'ont pas traduit chaque glyphe extraterrestre de cet artéfact.</li><li class='basic'>Si un investigateur qui contrôle un artéfact est vaincu, <i>donnez-en le contrôle à l'investigateur survivant le plus proche</i> au lieu de le retirer de la partie.</li></ul>",
+    "alienGlyphs": "<h3>Glyphes Extraterrestres</h3><p class='basic'>Tout au long de la campagne, le jeu peut demander aux investigateurs de traduire un glyphe représenté en deuxième page du Carnet de Campagne. À cette fin, écrivez le texte traduit dans l'espace situé directement sous ce glyphe, comme le demande le jeu.</p><ul><li class='basic'>La signification d'un glyphe n'a pas d'effet de jeu en elle-même.</li><li class='basic'>Certains artéfacts contiennent des glyphes extraterrestres. Tout texte situé sous ces glyphes est considéré comme vierge tant que les investigateurs n'ont pas traduit chaque glyphe extraterrestre de cet artéfact.</li><li class='basic'>Dans la plupart des scénarios de la campagne <i>La Cité Engloutie</i>, les joueurs devront mettre de côté les cartes Glyphe, hors jeu.</li></ul>"
+  },
+  "newKeywords": {
+    "title": "Nouveaux Mots-Clés",
+    "body": "<h3>Patrouille</h3><p class='basic'>Certains ennemis possèdent le mot-clé Patrouille. Lors de la phase des Ennemis (à l'étape structurelle 3.2), chaque ennemi redressé et non engagé ayant le mot-clé Patrouille se déplace vers un lieu connexe en direction du lieu désigné (entre parenthèses à côté du mot-clé Patrouille) par le chemin le plus court possible.</p><h3>Infatigable</h3><p class='basic'>Certains ennemis de cette campagne ont le mot-clé Infatigable. Lors de la phase des Ennemis (après l'étape structurelle 3.3), chaque ennemi ayant le mot-clé Infatigable qui a attaqué à cette phase (même si cette attaque a été annulée) se redresse et attaque une deuxième fois le ou les investigateurs avec lesquels il est engagé.</p><h3>Alerte</h3><p class='basic'>Certains ennemis possèdent le mot-clé Alerte. Chaque fois qu'un investigateur échoue à un test de compétence lorsqu'il tente d'échapper à un ennemi ayant le mot-clé Alerte, après avoir appliqué tous les résultats de ce test de compétence, cet ennemi effectue une attaque contre l'investigateur qui tentait de lui échapper. Un ennemi ne s'incline pas après avoir effectué une attaque consécutive au mot-clé Alerte. Cette attaque a lieu que l'ennemi soit engagé ou non avec cet investigateur.</p><h3>Sceller</h3><p class='basic'>Pour qu'une carte avec le mot-clé Sceller entre en jeu, son contrôleur doit, en tant que coût supplémentaire, aller chercher dans la réserve du Chaos le pion Chaos indiqué et le placer sur cette carte : ce pion Chaos est alors Scellé. Un pion Chaos scellé n'est pas considéré comme étant dans la réserve du Chaos et ne peut donc pas être révélé de la réserve du Chaos lors d'un test de compétence ou d'une capacité.</p>"
+  },
+  "glyphs": {
+    "title": "Glyphes Extraterrestres",
+    "runes": {
+      "a": "Profondeurs",
+      "b": "Plante",
+      "c": "Chose Ancienne",
+      "d": "Vague",
+      "e": "Ténèbres",
+      "f": "Étoiles",
+      "g": "Vie",
+      "h": "Y’ch’lecht",
+      "i": "Cthulhu",
+      "j": "Sommeil",
+      "k": "Rêves",
+      "l": "Bras",
+      "m": "Terre",
+      "n": "Fatalité",
+      "o": "Pouvoir",
+      "p": "Météo",
+      "q": "Main",
+      "r": "Temps",
+      "s": "Machine",
+      "t": "Air",
+      "u": "Filles",
+      "v": "Étranger",
+      "w": "Parasite",
+      "x": "Somme",
+      "y": "Connaissance",
+      "z": "Cité"
+    }
+  },
+  "rlyehMap": {
+    "rlyehWesternWall": "Le Mur Occidental",
+    "rlyehDrownedQuarter": "Le Quartier Englouti",
+    "rlyehApiary": "Le Rucher",
+    "rlyehGrandVault": "La Grande Crypte",
+    "rlyehCourtOfTheAncients": "La Cour des Anciens",
+    "rlyehObsidianCanyons": "Les Canyons d'Obsidienne",
+    "rlyehSepulchreOfTheSleeper": "Le Sépulcre du Dormeur"
+  },
+  "artifactsEarned": {
+    "title": "Artéfacts Obtenus"
+  },
+  "key": {
+    "rubyWonTheBet": "Ruby a gagné son pari.",
+    "rubyLostTheBet": "Ruby a perdu son pari.",
+    "theInvestigatorsDiscoveredAnAlienLanguage": "Les investigateurs ont découvert un langage extraterrestre.",
+    "walkInFaith": "Marcher Dans la Foi",
+    "toeTheLine": "Rentrer Dans le Rang",
+    "noPlaceLikeHome": "On n'Est Bien que Chez Soi",
+    "goodMoney": "Une Somme Inespérée",
+    "doNoHarm": "Ne Pas Nuire",
+    "proveYourWorth": "Prouvez Votre Valeur",
+    "dreamsOfDestruction": "Rêves de Destruction",
+    "plumbTheDepths": "Sonder les Profondeurs",
+    "theExpeditionHeadedWest": "L'expédition se dirige vers l'ouest.",
+    "theExpeditionHeadedEast": "L'expédition se dirige vers l'est.",
+    "theExpeditionHelpedThePilgrim": "L'expédition a aidé le pèlerin.",
+    "theExpeditionLeftThePilgrim": "L'expédition a laissé le pèlerin à son sort.",
+    "theCreatureWasDefeated": "La créature a été vaincue.",
+    "barrierNode": "Nodule de Barrière",
+    "obsidianClaw": "Griffes d'Obsidienne",
+    "shardOfYchlecht": "Éclat de Y'ch'lecht",
+    "tidalTablet": "Tablette des Marées",
+    "grislyMask": "Horrible « Masque »",
+    "horrorInClay": "Horreur d'Argile",
+    "rlyehMap": "Carte de R'lyeh",
+    "thePilgrimsWereSaved": "Les pèlerins ont été sauvés.",
+    "thePilgrimsWereDevoured": "Les pèlerins ont été dévorés.",
+    "theInvestigatorsExterminatedTheAlienParasites": "Les investigateurs ont exterminé les parasites extraterrestres.",
+    "thePowerWasDiverted": "L'énergie a été détournée.",
+    "theInnerSanctumWasUnsealed": "Le sanctuaire intérieur a été descellé.",
+    "yourAlliesHaveAPlan": "Vos alliés ont un plan.",
+    "theInvestigatorsStoodTogether": "Les investigateurs sont restés soudés.",
+    "cthulhuWasDrivenAway": "Cthulhu a été repoussé.",
+    "cthulhuAnnihilatedTheExpedition": "Cthulhu a anéanti l'expédition.",
+    "cthulhuWasBanished": "Cthulhu a été banni."
+  }
+}

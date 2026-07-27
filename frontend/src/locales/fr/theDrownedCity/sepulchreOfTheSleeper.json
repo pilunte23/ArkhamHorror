@@ -1,0 +1,41 @@
+{
+  "tooltips": {
+    "weakenCthulhu": "Pendant votre tour, retirez 1 fatalité d'un soutien Artéfact que vous contrôlez : Cthulhu perd _Infatigable_ et obtient -1 combat et -1 évasion jusqu'à la fin du round. Limite : une fois par soutien et par round."
+  },
+  "placeAdditionalDoom": "Dépensez 1 indice par investigateur (en groupe) pour placer 1 fatalité supplémentaire sur la Tablette des Marées",
+  "placeAdditionalDoomOnObsidianClaw": "Dépensez 1 indice par investigateur (en groupe) pour placer 1 fatalité supplémentaire sur les Griffes d'Obsidienne",
+  "placeAdditionalDoomOnBarrierNode": "Dépensez 1 indice par investigateur (en groupe) pour placer 1 fatalité supplémentaire sur le Nodule de Barrière",
+  "placeAdditionalDoomOnShardOfYchlecht": "Dépensez 1 indice par investigateur (en groupe) pour placer 1 fatalité supplémentaire sur l'Éclat de Y'ch'lecht",
+  "placeAdditionalDoomOnGrislyMask": "Dépensez 1 indice par investigateur (en groupe) pour placer 1 fatalité supplémentaire sur l'Horrible Masque",
+  "doNotPlaceAdditionalDoom": "Ne pas placer de fatalité supplémentaire",
+  "sigilCarvedAlcoveStoryOfDefiance": {
+    "test": "{action}: Testez {agility} (5). En cas de réussite, placez 1 fatalité sur l'Horrible Masque. Les investigateurs à ce lieu peuvent également dépenser ensemble 1 indice par investigateur pour y placer 1 fatalité supplémentaire."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est la Perturbation actuelle (maximum 6).",
+      "cultist": "-4. Si vous échouez, piochez la carte du dessus du deck Rencontre. Si vous échouez de 3 points ou plus, cette carte gagne Péril et Renfort.",
+      "tablet": "-4. Pour chaque point par lequel vous échouez, vous devez soit subir 1 horreur, soit défausser 1 carte de votre main.",
+      "elderThing": "-3. Révélez un autre pion."
+    },
+    "hardExpert": {
+      "skull": "-X. X est la Perturbation actuelle.",
+      "cultist": "-6. Si vous échouez, piochez la carte du dessus du deck Rencontre. Si vous échouez de 3 points ou plus, cette carte gagne Péril et Renfort.",
+      "tablet": "-6. Pour chaque point par lequel vous échouez, vous devez soit subir 1 horreur, soit défausser 1 carte de votre main.",
+      "elderThing": "-4. Révélez un autre pion."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "pour avoir affronté le Dormeur"
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : La forme gargantuesque de Cthulhu bascule en arrière dans le bassin central. Ses mains flasques et griffues agrippent les bords sans trouver de prise, tandis que sa silhouette disparaît sous l'eau noire. Ses cinq yeux rougeoyants, déformés par la surface, s'éteignent lentement. Puis, aussi soudainement que cela avait commencé, tout redevient calme et immobile.</p>"
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte_ : Brisé dans votre corps comme dans votre esprit, vous vous effondrez devant la grande forme de Cthulhu. La cité tremble et emplit vos oreilles d'un grondement assourdissant. Cthulhu vous contemple avec indifférence : vous n'êtes rien de plus qu'une nuisance, un parasite insignifiant. Votre conscience se replie sur elle-même alors que votre raison cède à la liberté déchaînée de la folie totale.</p>"
+    }
+  }
+}

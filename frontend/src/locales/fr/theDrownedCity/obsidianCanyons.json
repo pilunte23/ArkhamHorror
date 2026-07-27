@@ -1,0 +1,53 @@
+{
+  "cluesToSpend": "Indices à dépenser",
+  "wingsOfTerror": {
+    "drawEnemy": "Piochez cet ennemi",
+    "attack": "Cet ennemi vous attaque"
+  },
+  "westernWall": {
+    "resign": "Vous battez en retraite vers le mur occidental et redescendez de l'horizon balayé par la tempête."
+  },
+  "ancientDome": {
+    "resign": "Vous redescendez de l'ancien dôme et quittez l'horizon ravagé par la tempête."
+  },
+  "hangingShip": {
+    "slide": "Faites glisser le Navire Suspendu vers un ciel ouvert adjacent."
+  },
+  "magneticSpires": {
+    "swap": "Choisissez un ciel ouvert situé à 2 espaces maximum et échangez sa position avec les Flèches Magnétiques."
+  },
+  "lostInTheClouds": {
+    "eachInvestigatorTakesHorror": "Chaque investigateur subit 2 horreurs directes."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est l'Intensité de Tempête actuelle.",
+      "cultist": "-4. Si ce test échoue, placez 1 fatalité sur l'ennemi le plus proche.",
+      "tablet": "-1 pour chaque ciel ouvert adjacent à votre lieu actuel.",
+      "elderThing": "-2. S'il y a un ennemi à votre lieu, révélez un autre pion."
+    },
+    "hardExpert": {
+      "skull": "-X. X est égal à 2 de plus que l'Intensité de Tempête actuelle.",
+      "cultist": "-6. Placez 1 fatalité sur l'ennemi le plus proche.",
+      "tablet": "-2 pour chaque ciel ouvert adjacent à votre lieu actuel.",
+      "elderThing": "-4. S'il y a un ennemi à votre lieu, révélez un autre pion."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "pour avoir bravé les canyons d'obsidienne"
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : Andy est assis sur un rocher luisant, faisant de son mieux pour ne pas paraître ébranlé. « Bon... je pensais que ce voyage allait lancer ma carrière. Mais entre les parasites extraterrestres, les tempêtes magnétiques et, vous savez, l'océan Pacifique... ma carrière n'avait aucune chance », soupire-t-il. « Au moins, on est revenus entiers. Enfin, presque », ajoute-t-il en riant, en ménageant son bras bandé.</p>"
+    },
+    "resolution2": {
+      "title": "Conclusion 2",
+      "body": "<p>_Conclusion 2_ : Vous rejoignez Ruby sur la crête de l'ancienne cour. En regardant dans les profondeurs, vous êtes stupéfait par l'immensité de la structure. En contrebas, un ascenseur colossal se dresse au centre d'une nef de cathédrale, entouré d'anneaux en spirale. Cinq longues absides rayonnent depuis cette structure centrale comme des griffes d'obsidienne, dominant l'horizon d'un autre monde.</p>"
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte_ : Les tempêtes dispersent l'expédition à travers l'horizon d'obsidienne. Meurtri et désorienté, vous finissez par vous regrouper sur le rivage, ayant perdu le fil de votre objectif dans les vents hurlants.</p>"
+    }
+  }
+}

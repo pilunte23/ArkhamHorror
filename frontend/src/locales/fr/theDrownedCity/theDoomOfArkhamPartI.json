@@ -1,0 +1,35 @@
+{
+  "blankPrintedText": "Considérez la boîte de texte imprimée de ce soutien comme vierge jusqu'à la fin du round.",
+  "moveStarSpawn": "Déplacez un ennemi Rejeton des Étoiles une fois, dans n'importe quelle direction.",
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est la moitié du nombre de lieux sans carte Scénario sous eux (arrondie à l'entier supérieur).",
+      "cultist": "-3. Si ce test échoue, placez 1 fatalité sur l'ennemi le plus proche qui n'a pas de fatalité.",
+      "tablet": "-3. Si ce test échoue, placez 1 de vos indices sur votre lieu.",
+      "elderThing": "-2. Si votre lieu est inondé, révélez un autre pion."
+    },
+    "hardExpert": {
+      "skull": "-X. X est le nombre de lieux sans carte Scénario sous eux.",
+      "cultist": "-5. Si ce test échoue, placez 1 fatalité sur l'ennemi le plus proche qui n'a pas de fatalité.",
+      "tablet": "-5. Si ce test échoue, placez 1 de vos indices sur votre lieu.",
+      "elderThing": "-4. Si votre lieu est inondé, révélez un autre pion."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "pour avoir récupéré les artéfacts"
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : « J'ai trop travaillé pour voir mes plans réduits à néant », grince Randall. Des formes cauchemardesques se dessinent autour de la tête et des épaules de l'antiquaire tandis qu'il tente faiblement de vous agripper. Le cœur battant, vous foncez vers la sortie de la boutique et déboulez dans la rue. Quand vous vous retournez, la porte de la boutique a de nouveau disparu.</p>"
+    },
+    "resolution2": {
+      "title": "Conclusion 2",
+      "body": "<p>_Conclusion 2_ : « Vous arrivez trop tard ! » halète Randall en se tenant le flanc. « La destruction d'Arkham est imminente et vous êtes impuissants à l'arrêter. » Bibelots et vieux grimoires s'arrachent aux étagères et restent suspendus en plein air. Votre vision se brouille, puis vous vous retrouvez dans la rue. La boutique a encore disparu.</p>"
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte_ : La boutique fantôme vous échappe, emportant ses secrets, et l'antiquaire, avec elle. Vous restez les mains vides dans les rues battues par l'orage alors que le destin funeste d'Arkham approche.</p>"
+    }
+  }
+}

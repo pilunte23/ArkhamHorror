@@ -1,0 +1,88 @@
+{
+  "intro": {
+    "title": "Le Quartier Englouti",
+    "drownedQuarter1": "_Le Quartier Englouti 1_ : Le crépitement de l'électricité vous accueille lorsque vous entrez dans le dôme sous-marin. Des tranchées inondées et des ruines en ruine couvrent la place circulaire au fond de l'océan. Malgré vous, vos yeux sont sans cesse attirés par l'océan au-delà de la barrière extraterrestre. Un essaim de méduses flotte paisiblement dans les profondeurs ténébreuses. Si le champ d'énergie venait à disparaître, l'expédition serait emportée à coup sûr.",
+    "checkCampaignLog": "Vérifiez votre Carnet de Campagne.",
+    "headedWest": "Si l'expédition se dirige vers l'ouest, continuez à _Le Quartier Englouti 2_.",
+    "headedEast": "Si l'expédition se dirige vers l'est, passez à _Le Quartier Englouti 3_.",
+    "drownedQuarter2": "_Le Quartier Englouti 2_ : « Je crois que c'est la source », dit Andy en montrant la structure circulaire au centre de la place. Des éclairs d'électricité lèchent la bulle miroitante au-dessus de vous. La structure est à l'origine de cette lueur et, vraisemblablement, du champ d'énergie qui protège ces ruines de l'eau océanique. À l'intérieur, vous découvrez un orrery tournoyant : un mécanisme complexe de sphères en lévitation et d'engrenages bourdonnants qui entretiennent un courant électrique constant. En son cœur est enchâssé un orbe incandescent. Andy s'agite nerveusement. « Il alimente la machine. Je ne sais pas ce qui arrivera si on le retire, mais... ça ressemble au genre de truc que M. Tillinghast voudrait. »",
+    "drownedQuarter2Conclusion": "Avant que vous ne puissiez protester, il se met à manipuler les commandes antiques. Il existe peut-être un moyen de retirer l'orbe sans se noyer...",
+    "drownedQuarter3": "_Le Quartier Englouti 3_ : Vous suivez l'expédition au-delà de fosses d'eau profonde et de ruines submergées jusqu'à la source de la lueur et, vraisemblablement, du champ d'énergie. À l'intérieur, vous découvrez un orrery tournoyant : un mécanisme complexe de sphères en lévitation et d'engrenages bourdonnants qui entretiennent un courant électrique constant. En son cœur est enchâssé un orbe incandescent. Ruby halète. « C'est une sorte de station de pompage. Je parierais que cet orbe en est une pièce maîtresse. Le voler pourrait très bien faire tomber l'océan sur nos têtes. » Elle sourit avec insolence. « Alors préparez-vous à courir. »",
+    "drownedQuarter3Conclusion": "Avant que vous ne puissiez protester, elle se met à manipuler les commandes antiques. Il existe peut-être un moyen de prendre l'orbe sans se noyer...",
+    "resolveNoPlaceLikeHome": "Si un investigateur a la tâche On n'Est Bien que Chez Soi, il résout son histoire correspondante à la page suivante.",
+    "proceedToSetup": "Continuez à _Mise en Place_.",
+    "noPlaceLikeHome": {
+      "title": "Tâche : On n'Est Bien que Chez Soi",
+      "instructions": "_Lisez ceci uniquement si vous avez la tâche On n'Est Bien que Chez Soi :_",
+      "body": "La tête vous tourne en levant les yeux vers l'orrery extraterrestre. Cette vision vous ramène à votre première nuit, celle où Tillinghast vous a retiré de la rue. Les étoiles étaient éclatantes ce soir-là, et vous n'avez jamais oublié leur disposition singulière : la même que celle qui se dessine devant vous à présent. Loin de l'usure quotidienne et des soucis de votre vie à Arkham, vous avez beaucoup réfléchi. Les mots de Tillinghast étaient bienveillants, mais son ton était dur, froid, sans empathie. En y repensant, vous réalisez qu'il ne s'est intéressé à vous que lorsque vous lui étiez utile. Il n'y avait aucune bonté dans son geste ; en vous sauvant, il vous a simplement acquis comme un larbin de plus dans son carquois de débiteurs.",
+      "question": "C'est la énième « dernière mission » qu'il vous confie. La parole de Tillinghast vaut-elle vraiment quelque chose ?",
+      "choose": "Vous devez décider (choisir une option) :",
+      "trustHim": "« M. Tillinghast m'a bien traité. Je lui fais confiance. » Soignez 1 traumatisme mental ou 1 traumatisme physique de votre investigateur. Effacez 1 progression sous _On n'Est Bien que Chez Soi_ dans votre Carnet de Campagne.",
+      "onMyOwn": "« Je suis seul. Je ne peux faire confiance à personne. » Cochez 2 progressions sous _On n'Est Bien que Chez Soi_ dans votre Carnet de Campagne et subissez 1 traumatisme mental. Chaque investigateur commence le prochain scénario avec 2 cartes de moins dans sa main de départ."
+    },
+    "label": {
+      "noPlaceLikeHome": {
+        "trustHim": "« M. Tillinghast m'a bien traité. Je lui fais confiance. »",
+        "onMyOwn": "« Je suis seul. Je ne peux faire confiance à personne. »",
+        "healTraumaQuestion": "Soignez 1 traumatisme mental ou 1 traumatisme physique de votre investigateur.",
+        "healPhysicalTrauma": "Soigner 1 traumatisme physique.",
+        "healMentalTrauma": "Soigner 1 traumatisme mental."
+      }
+    }
+  },
+  "setup": {
+    "title": "Mise en Place",
+    "gatherSets": "Récupérez toutes les cartes des sets de rencontre suivants : _Le Quartier Englouti_, _Machinerie Extraterrestre_, _Héritage Cosmique_, _Profonds_, _Brume Ancestrale_, _Inondation_, _R'lyeh_ et _Créatures Sous-Marines_. Ces sets sont indiqués par les icônes suivantes :<section class='encounter-sets'><img src='{setImgPath}/the-drowned-quarter.png' /><img src='{setImgPath}/alien-machinery.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/tdc_deep-ones.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/flood.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/undersea-creatures.png' /></section>",
+    "locationPlacement": "Placement des lieux pour « Le Quartier Englouti »",
+    "placeBarrierCore": "Mettez le Noyau de Barrière en jeu, face (Inactif) visible.",
+    "gatherSeaFloorLocations": "Récupérez chaque lieu Fond Marin et retirez de la partie au hasard un exemplaire de Récif Corallien et un exemplaire d'Acropole Engloutie.",
+    "placeSeaFloorLocations": "Mélangez les huit lieux Fond Marin restants et mettez-les en jeu en grille 3x3 autour du Noyau de Barrière, comme indiqué sur le schéma de placement des lieux.",
+    "beginAtBarrierCore": "Chaque investigateur commence la partie au Noyau de Barrière.",
+    "setCardsAside": "Mettez de côté le soutien d'histoire Nodule de Barrière, ainsi que les cartes recto-verso Parasite Sous-Marin {'{'}runeX{'}'} et Relique d'Obsidienne {'{'}runeY{'}'}, hors jeu.",
+    "chooseExpeditionAsset": "Dans l'ordre des joueurs, chaque joueur peut choisir 1 soutien _Artéfact_ obtenu ou 1 soutien _Objet_ du set de rencontre _Expédition_ pour commencer la partie en jeu sous son contrôle. Ce set est indiqué par l'icône suivante :<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "addFloodTokens": "Ajoutez les pions Inondation à la réserve de pions et vérifiez votre Carnet de Campagne.",
+    "headedEast": "Si l'expédition se dirige vers l'est, la remontée de la cité a ébranlé l'ancien dôme. Augmentez le niveau d'inondation de 1 lieu Fond Marin par investigateur ({'{'}perPlayer{'}'}).",
+    "buildEncounterDeck": "Mélangez les cartes Rencontre restantes pour constituer le deck Rencontre.",
+    "readyToBegin": "Vous êtes maintenant prêt à commencer."
+  },
+  "label": {
+    "chooseFloodedSeaFloor": "Augmentez le niveau d'inondation d'un lieu Fond Marin par investigateur.",
+    "chooseExpeditionAssetQuestion": "Choisissez 1 soutien Artéfact obtenu ou 1 soutien Objet du set Expédition pour commencer la partie en jeu sous votre contrôle.",
+    "noExpeditionAsset": "Ne pas prendre d'Artéfact ou de soutien Expédition."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X est la moitié du nombre de lieux révélés (arrondie à l'inférieur).",
+      "cultist": "-2. Si vous échouez et que votre lieu est complètement inondé, subissez 1 dégât.",
+      "tablet": "-4. Si vous échouez, placez 1 de vos indices sur votre lieu.",
+      "elderThing": "-3 (à la place -5 si votre lieu n'est pas inondé)."
+    },
+    "hardExpert": {
+      "skull": "-X. X est le nombre de lieux révélés.",
+      "cultist": "-3. Si votre lieu est inondé, subissez 1 dégât.",
+      "tablet": "-4. Pour chaque point d'écart par lequel vous échouez, placez 1 de vos indices sur votre lieu.",
+      "elderThing": "-4 (à la place -6 si votre lieu n'est pas inondé)."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "pour avoir étudié longuement le Quartier Englouti"
+    },
+    "resolution1": {
+      "title": "Conclusion 1",
+      "body": "<p>_Conclusion 1_ : L'étrange nodule pulse dans votre main, projetant une douce bulle lumineuse qui repousse les débris qui s'effondrent. Vous atteignez l'entrée au moment où le dôme éclate comme une bulle. L'expédition observe, partagée entre admiration et peur, tandis qu'un torrent d'eau de mer reprend possession de la structure extraterrestre. Une vive douleur vous pique la paume ; vous baissez les yeux et voyez le nodule s'y enfoncer, envoyant sous votre peau de fines ramifications noires en toile d'araignée. Elles se rétractent sans douleur lorsque vous retirez le nodule. Tillinghast sera certainement ravi de cette trouvaille.</p><ul><li>Dans la section « Artéfacts Obtenus » de votre Carnet de Campagne, cochez la case à côté de « Nodule de Barrière ».</li><li>Passez à _Conclusion 3_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Conclusion 2",
+      "body": "<p>_Conclusion 2_ : Le noyau réactivé assèche rapidement le dôme inondé, évacuant l'eau en quelques minutes à peine. Avec l'expédition, vous inspectez le pourtour de la ruine engloutie en vous émerveillant de son ancienne grandeur. La sensation de marcher sur un fond océanique asséché, tandis que des poissons virevoltent au-delà de la bulle vacillante, tient du rêve. Après plusieurs heures, l'expédition reprend sa progression.</p><ul><li>Dans votre Carnet de Campagne, inscrivez que _l'énergie a été détournée_.</li><li>Chaque investigateur gagne 2 points d'expérience bonus pour avoir étudié longuement le Quartier Englouti.</li><li>Continuez à _Conclusion 3_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Conclusion 3",
+      "body": "<p>_Conclusion 3_ : Le champ d'énergie qui protège le tunnel de retour vers la cité tient toujours bon. Les fondations déchiquetées de R'lyeh continuent de se disloquer en fragments à mesure que la cité s'élève. Il est temps de poursuivre.</p><ul><li>Dans votre Carnet de Campagne, rayez « Le Quartier Englouti » sur la carte de R'lyeh.</li><li>Chaque investigateur gagne une quantité d'expérience égale à la valeur Victoire X de chaque carte dans la pile de victoire.</li></ul>"
+    },
+    "noResolution": {
+      "title": "Aucune Conclusion",
+      "body": "<p>_Si aucune conclusion n'a été atteinte (chaque investigateur a abandonné ou a été vaincu)_ : De l'autre côté de l'entrée du dôme, vous contemplez le fond marin à travers la barrière diaphane. L'océan a repris le dôme extraterrestre en quelques secondes. C'est un petit miracle que vous n'ayez pas été emportés.</p><ul><li>Votre échec vous a détourné de vos objectifs. Chaque investigateur doit effacer 1 progression sous sa tâche, si possible.</li><li>Passez à _Conclusion 3_.</li></ul>"
+    }
+  }
+}
